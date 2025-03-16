@@ -129,16 +129,20 @@ function carregarPergunta() {
 
 function verificarResposta(escolha, botao) {
     const perguntaAtual = perguntas[indice];
-
+    
+    // Se a resposta estiver correta e for a primeira tentativa
     if (escolha === perguntaAtual.correta) {
-        if (!botao.classList.contains('acertou')) { // Verifica se o botão ainda não foi marcado como correto
-            acertos++;
-            botao.classList.add('acertou'); // Marca o botão como correto
+        // Verifica se é a primeira tentativa (se a dica não foi mostrada)
+        if (!document.getElementById("dica").innerText) {
+            acertos++; // Acerta de primeira
         }
         indice++;
         carregarPergunta();
     } else {
-        erros++;
+        // Se errou, aumenta a quantidade de erros e esconde o botão
+        if (!document.getElementById("dica").innerText) {
+            erros++; // Conta como erro se for a primeira tentativa
+        }
         botao.style.display = "none";
         document.getElementById("dica").innerText = perguntaAtual.dica;
     }
