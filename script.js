@@ -131,7 +131,10 @@ function verificarResposta(escolha, botao) {
     const perguntaAtual = perguntas[indice];
 
     if (escolha === perguntaAtual.correta) {
-        acertos++;
+        if (!botao.classList.contains('acertou')) { // Verifica se o botão ainda não foi marcado como correto
+            acertos++;
+            botao.classList.add('acertou'); // Marca o botão como correto
+        }
         indice++;
         carregarPergunta();
     } else {
@@ -142,3 +145,4 @@ function verificarResposta(escolha, botao) {
 }
 
 carregarPergunta();
+
