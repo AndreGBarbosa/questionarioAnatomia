@@ -97,7 +97,7 @@ const perguntas = [
    
     { pergunta: "Diretamente ligado à tuba uterina encontramos a (o):", opcoes: ["Útero", "Vagina", "Ovário", "Ovócito"], correta: 0, dica: "A tuba uterina está ligada ao ovário!" },
    
-    { pergunta: "O ápice da pirâmide renal é chamado de _________________ e aponta para o ____________ do rim.", opcoes: ["Hilo renal; interior", "Seio renal; exterior", "Papila renal; interior", "Papila renal; exterior"], correta: 3, dica: "O ápice da pirâmide renal é a papila renal e aponta para o exterior do rim!" }
+    { pergunta: "O ápice da pirâmide renal é chamado de _________________ e aponta para o ____________ do rim.", opcoes: ["Hilo renal; interior", "Seio renal; exterior", "Papila renal; interior", "Papila renal; exterior"], correta: 2, dica: "O ápice da pirâmide renal é a papila renal e aponta para o exterior do rim!" }
     
 ]
 
