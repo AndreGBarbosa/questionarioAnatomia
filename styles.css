@@ -12,7 +12,6 @@ body {
     height: auto; 
 }
 
-
 .container {
     width: 90%;
     max-width: 800px;
@@ -31,6 +30,15 @@ h1 {
 
 #opcoes {
     margin-top: 20px;
+}
+
+#opcoes button {
+    display: block; /* Garante que os botões fiquem empilhados verticalmente */
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
