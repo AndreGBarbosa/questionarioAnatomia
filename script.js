@@ -63,7 +63,7 @@ const perguntas = [
     
     { pergunta: "Palavras oxítonas têm a sílaba tônica:", opcoes: ["Na última sílaba", "Na primeira sílaba", "Na penúltima sílaba", "Na antepenúltima sílaba"], correta: 0, dica: "Oxítonas sofá, café..." },
     
-    { pergunta: "Palavras paroxítonas são aquelas com a sílaba tônica:", opcoes: ["Na última sílaba", "Na penúltima sílaba", "Na primeira sílaba", "Na antepenúltima sílaba"], correta: 1, dica: "Paroxítonas irmã, orfãs..." }
+    { pergunta: "Palavras paroxítonas são aquelas com a sílaba tônica:", opcoes: ["Na última sílaba", "Na penúltima sílaba", "Na primeira sílaba", "Na antepenúltima sílaba"], correta: 1, dica: "Paroxítonas irmã, orfãs..." },
 
     { pergunta: "Palavras proparoxítonas são aquelas com a sílaba tônica:", opcoes: ["Na última sílaba", "Na penúltima sílaba", "Na primeira sílaba", "Na antepenúltima sílaba"], correta: 3, dica: "São todas acentuadas" }
     ]
