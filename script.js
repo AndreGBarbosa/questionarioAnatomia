@@ -7,7 +7,7 @@ const perguntas = [
     
     { pergunta: "O que é considerado o canal da comunicação?", opcoes: ["Ambiente físico", "Meio de transmissão da mensagem", "O emissor", "Código utilizado"], correta: 1, dica: "O canal é o meio por onde a mensagem é transportada." },
     
-    { pergunta: "Ruídos na comunicação são:", opcoes: ["Facilitadores de entendimento", "Barreiras e interferências na mensagem", "A confirmação do receptor", "Formas de canalizar a comunicação"], correta: 1, dica: "Ruídos atrapalham a transmissão da mensagem, físicos ou psicológicos." },
+    { pergunta: "Ruídos na comunicação são:", opcoes: ["Facilitadores de entendimento", "Fisicos e sentimentais", "Formas de Barulho", "Fisicos e psicológicos"], correta: 3, dica: "Ruídos atrapalham a transmissão da mensagem, físicos ou psicológicos." },
     
     { pergunta: "A semântica na comunicação está ligada a:", opcoes: ["Envio de mensagens", "Velocidade da fala", "Compreensão do significado", "Meio físico da transmissão"], correta: 2, dica: "Semântica é o modo como interpretamos o sentido da mensagem." },
     
@@ -25,39 +25,47 @@ const perguntas = [
     
     { pergunta: "A função emotiva da linguagem expressa:", opcoes: ["Sentimentos e emoções", "Dados estatísticos", "Realidade objetiva", "Instruções técnicas"], correta: 0, dica: "Fala-se de emoções quando usamos a função emotiva." },
     
-    { pergunta: "A função referencial da linguagem busca:", opcoes: ["Transmitir emoções", "Convencer o leitor", "Transmitir informações objetivas", "Manter o canal de comunicação"], correta: 2, dica: "Referencial é passar informações diretas e concretas." },
+    { pergunta: "A função referencial da linguagem busca:", opcoes: ["Transmitir emoções", "Convencer o leitor", "Realidade nua e crua", "Manter o canal de comunicação"], correta: 2, dica: "Referencial é passar informações diretas e concretas." },
     
-    { pergunta: "A função apelativa da linguagem tenta:", opcoes: ["Informar dados", "Expressar sentimentos", "Persuadir o receptor", "Cantar versos"], correta: 2, dica: "Apelativa quer mudar a atitude do receptor." },
+    { pergunta: "A função apelativa (Você nunca mais vera isso) da linguagem tenta:", opcoes: ["Informar dados", "Expressar sentimentos", "Persuadir o receptor", "Cantar versos"], correta: 2, dica: "Apelativa quer mudar a atitude do receptor." },
     
-    { pergunta: "A função fática da linguagem serve para:", opcoes: ["Manter a comunicação", "Persuadir o interlocutor", "Expressar emoções profundas", "Contar histórias"], correta: 0, dica: "É a função usada para garantir que o canal está funcionando." },
+    { pergunta: "A função fática (Aham, sei...) da linguagem serve para:", opcoes: ["Manter a comunicação", "Persuadir o interlocutor", "Expressar emoções profundas", "Contar histórias"], correta: 0, dica: "É a função usada para garantir que o canal está funcionando." },
     
-    { pergunta: "A função poética da linguagem valoriza:", opcoes: ["A estética e a forma da mensagem", "A persuasão política", "A realidade nua e crua", "O feedback imediato"], correta: 0, dica: "Na função poética, o jeito de dizer é tão importante quanto o que se diz." },
+    { pergunta: "A função poética da linguagem valoriza:", opcoes: ["A estética e romântica de falar", "A persuasão política", "A realidade nua e crua", "Fugir da realidade de forma mais leve"], correta: 3, dica: "Na função poética, o jeito de dizer é tão importante quanto o que se diz." },
     
-    { pergunta: "O que representa a variação linguística culta?", opcoes: ["Erros gramaticais comuns", "Língua padrão formal", "Gírias de internet", "Expressões regionais"], correta: 1, dica: "Culta é a variação da língua usada formalmente." },
+    { pergunta: "O que representa a variação linguística culta?", opcoes: ["Erros gramaticais comuns", "Língua padrão-idioma ", "Gírias de internet", "Expressões regionais"], correta: 1, dica: "Culta é a variação da língua usada formalmente." },
     
-    { pergunta: "Dialetos são variações ligadas a:", opcoes: ["Idade", "Região", "Sexo", "Profissão"], correta: 1, dica: "Dialetos diferem entre regiões geográficas." },
+    { pergunta: "Dialetos são variações ligadas a:", opcoes: ["Idade", "Profissão", "Sexo", "Região"], correta: 3, dica: "Dialetos diferem entre regiões geográficas." },
     
     { pergunta: "Socioletos são usados por grupos definidos por:", opcoes: ["Área de estudo", "Comunidade social específica", "Idade", "Região"], correta: 1, dica: "Socioletos aparecem em diferentes grupos sociais." },
     
-    { pergunta: "Idioletos se referem a:", opcoes: ["Um tipo de gíria", "A fala individual de cada pessoa", "A linguagem usada em grupos étnicos", "Variações dentro de regiões"], correta: 1, dica: "Cada pessoa tem seu jeito único de falar: isso é o idioleto." },
+    { pergunta: "Idioletos se referem a:", opcoes: ["Um tipo de gíria", "A linguagem usada em grupos étnicos", "A fala individual de cada pessoa", "Variações dentro de regiões"], correta: 2, dica: "Cada pessoa tem seu jeito único de falar: isso é o idioleto." },
     
     { pergunta: "Registros linguísticos são empregados em:", opcoes: ["Ambientes informais", "Cartas, documentos e profissões", "Conversas casuais", "Debates informais"], correta: 1, dica: "Registros são padrões formais usados em documentos e profissões." },
     
-    { pergunta: "Etnoletos referem-se a variações linguísticas de:", opcoes: ["Classes sociais", "Grupos étnicos", "Grupos políticos", "Famílias"], correta: 1, dica: "Etnoletos surgem em comunidades étnicas específicas." },
+    { pergunta: "Etnoletos referem-se a variações linguísticas de:", opcoes: ["Classes sociais", "Famílias", "Grupos étnicos", "Grupos políticos"], correta: 2, dica: "Etnoletos surgem em comunidades étnicas específicas." },
     
-    { pergunta: "Ecoletos são variações usadas:", opcoes: ["Na vida acadêmica", "No ambiente doméstico", "Na vida empresarial", "Na comunicação política"], correta: 1, dica: "Ecoletos se formam dentro dos lares." },
+    { pergunta: "Ecoletos são variações usadas:", opcoes: ["Na vida acadêmica", "Adotado para uma casa", "Na vida empresarial", "Na comunicação política"], correta: 1, dica: "Ecoletos se formam dentro dos lares." },
     
-    { pergunta: "A tipologia textual é o estudo de:", opcoes: ["Linguagem corporal", "Tipos de textos", "Formas de comunicação verbal", "Expressões artísticas"], correta: 1, dica: "Tipologia analisa os diferentes tipos de textos existentes." },
+    { pergunta: "A tipologia é o estudo de:", opcoes: ["Tipos de textos", "Linguagem corporal", "Formas de comunicação verbal", "Expressões artísticas"], correta: 0, dica: "Tipologia analisa os diferentes tipos de textos existentes." },
     
-    { pergunta: "Coesão textual se refere à:", opcoes: ["Correção gramatical", "Harmonia entre partes do texto", "Expressão de sentimentos", "Estética textual"], correta: 1, dica: "Coesão é o que mantém as partes do texto unidas de forma lógica." },
+    { pergunta: "Coesão textual se refere à:", opcoes: ["Correção gramatical", "Harmonia", "Expressão de sentimentos", "Estética textual"], correta: 1, dica: "Coesão é o que mantém as partes do texto unidas de forma lógica." },
     
-    { pergunta: "Coerência textual é:", opcoes: ["A ordem gramatical", "A lógica e o sentido do texto", "A variedade de palavras difíceis", "A extensão do vocabulário"], correta: 1, dica: "Coerência dá sentido e sequência lógica ao texto." },
+    { pergunta: "Coerência textual é:", opcoes: ["A ordem gramatical", "A extensão do vocabulário", "A variedade de palavras difíceis", "A lógica"], correta: 3, dica: "Coerência dá sentido e sequência lógica ao texto." },
     
     { pergunta: "Acentuação gráfica indica:", opcoes: ["Pontuação correta", "Timbre e som das palavras", "A beleza estética do texto", "Dificuldade linguística"], correta: 1, dica: "Acentuação ajuda a pronunciar e entender corretamente as palavras." },
+
+    { pergunta: "Que acento é esse (^):", opcoes: ["Chapéu", "Til", "Agudo e Grave", "Circunflexo"], correta: 3, dica: "Acento muito usado" },
+
+    { pergunta: "Que acento é esse (~):", opcoes: ["Chapéu", "Til", "Agudo e Grave", "Circunflexo"], correta: 1, dica: "Acento muito usado" },
+
+    { pergunta: "Que acento é esse (´`):", opcoes: ["Chapéu", "Til", "Agudo e Grave", "Circunflexo"], correta: 2, dica: "Acento muito usado" },
     
-    { pergunta: "Palavras oxítonas têm a sílaba tônica:", opcoes: ["Na última sílaba", "Na primeira sílaba", "Na penúltima sílaba", "Na antepenúltima sílaba"], correta: 0, dica: "Oxítonas têm a última sílaba como forte." },
+    { pergunta: "Palavras oxítonas têm a sílaba tônica:", opcoes: ["Na última sílaba", "Na primeira sílaba", "Na penúltima sílaba", "Na antepenúltima sílaba"], correta: 0, dica: "Oxítonas sofá, café..." },
     
-    { pergunta: "Palavras paroxítonas são aquelas com a sílaba tônica:", opcoes: ["Na última sílaba", "Na penúltima sílaba", "Na primeira sílaba", "Na antepenúltima sílaba"], correta: 1, dica: "Paroxítonas têm a força na penúltima sílaba." }
+    { pergunta: "Palavras paroxítonas são aquelas com a sílaba tônica:", opcoes: ["Na última sílaba", "Na penúltima sílaba", "Na primeira sílaba", "Na antepenúltima sílaba"], correta: 1, dica: "Paroxítonas irmã, orfãs..." }
+
+    { pergunta: "Palavras proparoxítonas são aquelas com a sílaba tônica:", opcoes: ["Na última sílaba", "Na penúltima sílaba", "Na primeira sílaba", "Na antepenúltima sílaba"], correta: 3, dica: "São todas acentuadas" }
     ]
     
 
