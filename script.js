@@ -1,370 +1,697 @@
 const perguntas = [
-  {
-    "pergunta": "O que é Saúde Coletiva?",
-    "opcoes": ["Estudo apenas de doenças", "Cuidado individual com o paciente", "Conjunto de ações voltadas à promoção e prevenção da saúde da população", "Apenas tratamento hospitalar"],
-    "correta": 2,
-    "dica": "A Saúde Coletiva busca promover, prevenir e recuperar a saúde de grupos e comunidades inteiras."
-  },
-  {
-    "pergunta": "O que estabelece a Portaria nº 648 de 28 de março de 2006?",
-    "opcoes": ["Criação do SUS", "Implantação da Política Nacional de Atenção Básica (PNAB)", "Normas sobre vacinas", "Regras para hospitais privados"],
-    "correta": 1,
-    "dica": "Essa portaria define diretrizes e a organização da Atenção Básica, incluindo o funcionamento das equipes de Saúde da Família."
-  },
-  {
-    "pergunta": "O que é a Atenção Básica de Saúde?",
-    "opcoes": ["Atendimento hospitalar", "Primeiro contato e acompanhamento contínuo da população", "Atendimento de urgência", "Ações de vigilância sanitária"],
-    "correta": 1,
-    "dica": "A Atenção Básica é o primeiro nível de atenção do SUS, focado na prevenção e promoção da saúde."
-  },
-  {
-    "pergunta": "Quantos profissionais compõem uma equipe mínima do PSF?",
-    "opcoes": ["1 médico e 1 enfermeiro", "1 médico, 1 enfermeiro, 1 técnico ou auxiliar de enfermagem e 4 a 6 ACS", "Apenas agentes comunitários", "1 médico e 2 técnicos"],
-    "correta": 1,
-    "dica": "Cada equipe do PSF deve ser multiprofissional para garantir atendimento integral à comunidade."
-  },
-  {
-    "pergunta": "O que significa PSF?",
-    "opcoes": ["Programa Saúde da Família", "Plano de Saúde Familiar", "Posto de Saúde Federal", "Projeto Social de Fisioterapia"],
-    "correta": 0,
-    "dica": "O PSF foi criado para aproximar o atendimento médico das famílias, dentro da comunidade."
-  },
-  {
-    "pergunta": "Para que serve o calendário de vacinação?",
-    "opcoes": ["Registrar apenas nascimentos", "Controlar o uso de medicamentos", "Indicar as vacinas e idades corretas para aplicação", "Acompanhar doenças crônicas"],
-    "correta": 2,
-    "dica": "O calendário orienta quais vacinas devem ser aplicadas em cada fase da vida, prevenindo doenças."
-  },
-  {
-    "pergunta": "A vacina BCG previne qual doença?",
-    "opcoes": ["Sarampo", "Tuberculose", "Poliomielite", "Hepatite B"],
-    "correta": 1,
-    "dica": "A vacina BCG protege contra formas graves da tuberculose, especialmente a meningite tuberculosa."
-  },
-  {
-    "pergunta": "A vacina contra Hepatite B previne qual tipo de doença?",
-    "opcoes": ["Doença pulmonar", "Infecção viral que afeta o fígado", "Infecção bacteriana", "Doença cardíaca"],
-    "correta": 1,
-    "dica": "A Hepatite B é uma infecção viral transmitida pelo sangue e secreções corporais que afeta o fígado."
-  },
-  {
-    "pergunta": "A vacina tríplice viral previne quais doenças?",
-    "opcoes": ["Tétano, difteria e coqueluche", "Sarampo, caxumba e rubéola", "Hepatite, poliomielite e HPV", "Tuberculose, febre amarela e dengue"],
-    "correta": 1,
-    "dica": "A tríplice viral protege contra três doenças altamente contagiosas: sarampo, caxumba e rubéola."
-  },
-  {
-    "pergunta": "A vacina DTP protege contra:",
-    "opcoes": ["Dengue, tétano e poliomielite", "Difteria, tétano e coqueluche", "Hepatite A, B e C", "HPV, sarampo e rubéola"],
-    "correta": 1,
-    "dica": "A DTP é essencial para prevenir doenças respiratórias e infecciosas graves em crianças."
-  },
-  {
-    "pergunta": "A vacina HPV é indicada principalmente para:",
-    "opcoes": ["Prevenir hepatite C", "Prevenir infecção por Papilomavírus Humano", "Prevenir gripe", "Prevenir tétano"],
-    "correta": 1,
-    "dica": "A vacina HPV previne câncer de colo de útero e outras infecções genitais causadas pelo vírus HPV."
-  },
-  {
-    "pergunta": "Qual a via correta para aplicar a vacina BCG?",
-    "opcoes": ["Intramuscular", "Intradérmica", "Subcutânea", "Oral"],
-    "correta": 1,
-    "dica": "A BCG é aplicada intradermicamente, geralmente no braço direito, formando pápula."
-  },
-  {
-    "pergunta": "A via intramuscular deve ser aplicada em qual local?",
-    "opcoes": ["Camada subcutânea", "Músculo (como deltóide ou vasto lateral)", "Veia", "Epiderme"],
-    "correta": 1,
-    "dica": "A via intramuscular injeta o medicamento diretamente no músculo para absorção mais rápida."
-  },
-  {
-    "pergunta": "A via subcutânea é aplicada em qual região do corpo?",
-    "opcoes": ["Veia", "Músculo", "Camada de gordura abaixo da pele", "Epiderme"],
-    "correta": 2,
-    "dica": "A aplicação subcutânea é feita no tecido adiposo, como no braço, abdômen ou coxa."
-  },
-  {
-    "pergunta": "Qual via é usada para administração de soro?",
-    "opcoes": ["Oral", "Intravenosa", "Subcutânea", "Intradérmica"],
-    "correta": 1,
-    "dica": "O soro é administrado diretamente na veia para efeito rápido."
-  },
-  {
-    "pergunta": "Qual tubo de coleta contém EDTA e é usado para exames hematológicos?",
-    "opcoes": ["Verde", "Roxo", "Cinza", "Vermelho"],
-    "correta": 1,
-    "dica": "O EDTA impede a coagulação do sangue, sendo usado em hemogramas."
-  },
-  {
-    "pergunta": "Qual tubo de coleta é usado para glicose?",
-    "opcoes": ["Roxo", "Cinza com fluoreto", "Verde com heparina", "Azul com citrato"],
-    "correta": 1,
-    "dica": "O fluoreto preserva a glicose e impede a fermentação do açúcar no sangue."
-  },
-  {
-    "pergunta": "Qual tubo usa heparina como anticoagulante?",
-    "opcoes": ["Verde", "Roxo", "Azul", "Cinza"],
-    "correta": 0,
-    "dica": "A heparina evita a coagulação, sendo usada para exames bioquímicos e gasometria."
-  },
-  {
-    "pergunta": "As DSTs são causadas por:",
-    "opcoes": ["Deficiência nutricional", "Micro-organismos transmitidos por contato sexual", "Problemas genéticos", "Fatores ambientais"],
-    "correta": 1,
-    "dica": "As DSTs são transmitidas por vírus, bactérias ou fungos durante o contato sexual sem proteção."
-  },
-  {
-    "pergunta": "Um exemplo de DST viral é:",
-    "opcoes": ["Sífilis", "Gonorreia", "Hepatite B", "Candidíase"],
-    "correta": 2,
-    "dica": "A Hepatite B é uma DST viral que pode causar inflamação do fígado."
-  },
-  {
-    "pergunta": "Quais são os parâmetros normais da pressão arterial em um adulto?",
-    "opcoes": ["160x110 mmHg", "120x80 mmHg", "100x60 mmHg", "140x100 mmHg"],
-    "correta": 1,
-    "dica": "Valores normais giram em torno de 120x80 mmHg. Acima de 140x90 é considerado hipertensão."
-  },
-  {
-    "pergunta": "Qual a temperatura corporal considerada normal?",
-    "opcoes": ["34°C", "35°C", "36°C a 37,4°C", "38°C"],
-    "correta": 2,
-    "dica": "A temperatura corporal normal varia entre 36°C e 37,4°C."
-  },
-  {
-    "pergunta": "Qual frequência cardíaca é normal em um adulto em repouso?",
-    "opcoes": ["30 a 50 bpm", "60 a 100 bpm", "100 a 140 bpm", "40 a 60 bpm"],
-    "correta": 1,
-    "dica": "Batimentos entre 60 e 100 bpm são considerados normais em adultos."
-  },
-  {
-    "pergunta": "Qual frequência respiratória é considerada normal em adultos?",
-    "opcoes": ["6 a 10 irpm", "12 a 20 irpm", "22 a 30 irpm", "30 a 40 irpm"],
-    "correta": 1,
-    "dica": "Respirações entre 12 e 20 por minuto são consideradas normais."
-  },
-  {
-    "pergunta": "Qual é o principal sintoma de febre?",
-    "opcoes": ["Temperatura acima de 37,8°C", "Pressão baixa", "Respiração lenta", "Sudorese fria"],
-    "correta": 0,
-    "dica": "A febre é um aumento da temperatura corporal acima de 37,8°C."
-  },
-  {
-    "pergunta": "Quais os principais sintomas da Hepatite?",
-    "opcoes": ["Dor de cabeça e febre", "Icterícia, urina escura e fadiga", "Tosse e dor de garganta", "Dor lombar e inchaço"],
-    "correta": 1,
-    "dica": "A Hepatite afeta o fígado e causa coloração amarelada da pele e olhos."
-  },
-  {
-    "pergunta": "Como ocorre a transmissão da Hepatite B?",
-    "opcoes": ["Pelo ar", "Por sangue contaminado e relações sexuais desprotegidas", "Por alimentos", "Por picada de inseto"],
-    "correta": 1,
-    "dica": "A Hepatite B é transmitida por fluidos corporais e sangue contaminado."
-  },
-  {
-    "pergunta": "Qual exame detecta câncer de mama?",
-    "opcoes": ["Eletrocardiograma", "Mamografia", "CA-125", "Ultrassonografia renal"],
-    "correta": 1,
-    "dica": "A mamografia é o exame de rastreio mais indicado para detectar o câncer de mama."
-  },
-  {
-    "pergunta": "Qual exame detecta o marcador CA-125?",
-    "opcoes": ["Câncer de mama", "Câncer de ovário", "Câncer de pulmão", "Câncer de pele"],
-    "correta": 1,
-    "dica": "O marcador CA-125 é usado para detecção e acompanhamento do câncer de ovário."
-  },
-  {
-    "pergunta": "O que é discutido nas Conferências Nacionais de Saúde?",
-    "opcoes": ["Políticas públicas e diretrizes do SUS", "Assuntos de economia", "Formação médica", "Planos privados"],
-    "correta": 0,
-    "dica": "As Conferências definem metas e prioridades das políticas públicas de saúde."
-  },
-  {
-    "pergunta": "O Programa HAS+DI visa o controle de quais doenças?",
-    "opcoes": ["Hipertensão e Diabetes", "Tuberculose e Hanseníase", "Hepatites e DSTs", "Câncer e Depressão"],
-    "correta": 0,
-    "dica": "HAS+DI foca no acompanhamento contínuo de hipertensos e diabéticos."
-  },
-  {
-    "pergunta": "O que é retinopatia diabética?",
-    "opcoes": ["Doença infecciosa ocular", "Lesão nos vasos da retina causada pelo diabetes", "Alergia nos olhos", "Tumor ocular"],
-    "correta": 1,
-    "dica": "A glicose alta danifica vasos da retina, podendo causar cegueira."
-  },
-  {
-    "pergunta": "O que é úlcera do pé diabético?",
-    "opcoes": ["Ferida causada por infecção viral", "Lesão nos pés por má circulação e neuropatia", "Ferimento esportivo", "Corte acidental"],
-    "correta": 1,
-    "dica": "Surge devido à falta de sensibilidade e circulação em diabéticos."
-  },
-  {
-    "pergunta": "O que é ateroma?",
-    "opcoes": ["Placa de gordura nas artérias", "Lesão muscular", "Tumor benigno", "Infecção sanguínea"],
-    "correta": 0,
-    "dica": "O ateroma é o acúmulo de gordura que leva à obstrução arterial."
-  },
-  {
-    "pergunta": "O que caracteriza a arteriosclerose?",
-    "opcoes": ["Artéria rígida e espessa", "Artéria fina e flexível", "Dilatação venosa", "Trombose arterial"],
-    "correta": 0,
-    "dica": "A arteriosclerose é o endurecimento das artérias, dificultando o fluxo de sangue."
-  },
-  {
-    "pergunta": "Qual exame avalia o colesterol e risco de ateroma?",
-    "opcoes": ["Hemograma", "Lipidograma", "Glicemia", "Eletrocardiograma"],
-    "correta": 1,
-    "dica": "O lipidograma mede colesterol e triglicerídeos, avaliando o risco cardiovascular."
-  },
-  {
-    "pergunta": "Como ocorre a transmissão da Hepatite C?",
-    "opcoes": ["Água contaminada", "Sangue contaminado e objetos perfurocortantes", "Ar contaminado", "Relação sexual oral"],
-    "correta": 1,
-    "dica": "Transfusão e uso de agulhas compartilhadas são principais meios de contágio."
-  },
-  {
-    "pergunta": "Qual cor identifica o recipiente para materiais perfurocortantes?",
-    "opcoes": ["Branco", "Amarelo ou vermelho", "Azul", "Verde"],
-    "correta": 1,
-    "dica": "Os recipientes vermelhos ou amarelos indicam risco biológico perfurocortante."
-  },
-  {
-    "pergunta": "O recipiente branco é usado para:",
-    "opcoes": ["Resíduos recicláveis", "Resíduos infectantes", "Resíduos comuns", "Restos alimentares"],
-    "correta": 1,
-    "dica": "Recipiente branco é destinado a resíduos infectantes, como gazes e curativos."
-  },
-  {
-    "pergunta": "O tubo azul contém qual anticoagulante?",
-    "opcoes": ["EDTA", "Citrato de sódio", "Heparina", "Fluoreto"],
-    "correta": 1,
-    "dica": "O citrato é usado em exames de coagulação como o TP e TTPA."
-  },
-  {
-    "pergunta": "Qual é o órgão responsável por coordenar o SUS?",
-    "opcoes": ["ANS", "Ministério da Saúde", "Prefeituras", "Conselhos Regionais"],
-    "correta": 1,
-    "dica": "O Ministério da Saúde coordena e define as políticas nacionais do SUS."
-  },
-  {
-    "pergunta": "O que significa SUS?",
-    "opcoes": ["Sistema Único de Saúde", "Serviço Universal de Saúde", "Sociedade Unificada de Saúde", "Sistema Unificado Social"],
-    "correta": 0,
-    "dica": "O SUS garante acesso universal e gratuito à saúde no Brasil."
-  },
-  {
-    "pergunta": "Qual o nome da conferência que originou o SUS?",
-    "opcoes": ["VIII Conferência Nacional de Saúde", "I Conferência de Saúde Pública", "Conferência Panamericana", "X Conferência de Saúde"],
-    "correta": 0,
-    "dica": "A VIII Conferência Nacional de Saúde de 1986 foi a base para criação do SUS."
-  },
-  {
-    "pergunta": "O que são macro e microlesões?",
-    "opcoes": ["Feridas grandes e pequenas causadas por pressão ou atrito", "Infecções respiratórias", "Cortes cirúrgicos", "Lesões ósseas"],
-    "correta": 0,
-    "dica": "Feridas cutâneas provocadas por esforço, pressão ou atrito na pele."
-  },
-  {
-    "pergunta": "Qual é o valor de pressão considerado hipertensão estágio 1?",
-    "opcoes": ["100x70 mmHg", "120x80 mmHg", "140x90 mmHg", "160x110 mmHg"],
-    "correta": 2,
-    "dica": "Pressão arterial igual ou acima de 140x90 mmHg indica hipertensão leve."
-  },
-  {
-    "pergunta": "Qual exame detecta diabetes?",
-    "opcoes": ["Lipidograma", "Glicemia em jejum", "Hemograma", "Urina tipo I"],
-    "correta": 1,
-    "dica": "A glicemia mede o nível de glicose no sangue, detectando diabetes."
-  },
-  {
-    "pergunta": "O que é o exame hemograma?",
-    "opcoes": ["Avalia função renal", "Avalia células do sangue (hemácias, leucócitos e plaquetas)", "Avalia função hepática", "Mede colesterol"],
-    "correta": 1,
-    "dica": "É o exame mais comum para avaliar a saúde geral e detectar infecções."
-  },
-  {
-    "pergunta": "O que é anemia?",
-    "opcoes": ["Excesso de glóbulos vermelhos", "Deficiência de hemoglobina ou hemácias", "Excesso de glicose", "Infecção viral"],
-    "correta": 1,
-    "dica": "A anemia é a falta de hemoglobina, causando cansaço e palidez."
-  },
-  {
-    "pergunta": "O que caracteriza a hipertensão arterial?",
-    "opcoes": ["Pressão abaixo de 100x60 mmHg", "Pressão acima de 140x90 mmHg", "Febre constante", "Alteração de glicose"],
-    "correta": 1,
-    "dica": "A hipertensão é a elevação persistente da pressão arterial."
-  },
-  {
-    "pergunta": "O que significa ACS?",
-    "opcoes": ["Agente Comunitário de Saúde", "Atendimento Clínico Simplificado", "Assistente de Cuidados Sanitários", "Agente Clínico Social"],
-    "correta": 0,
-    "dica": "Os ACS são responsáveis por visitar famílias e promover ações de prevenção em saúde."
-  },
-  {
-    "pergunta": "Qual é o principal objetivo do PSF?",
-    "opcoes": ["Atendimento apenas emergencial", "Aproximar o serviço de saúde das famílias e prevenir doenças", "Atendimento hospitalar", "Foco em cirurgias"],
-    "correta": 1,
-    "dica": "O PSF atua na prevenção e acompanhamento contínuo da comunidade."
-  },
-  {
-    "pergunta": "Qual o nome do exame que mede a glicose média dos últimos 3 meses?",
-    "opcoes": ["Glicemia em jejum", "Hemoglobina glicada (HbA1c)", "Insulina sérica", "Curva glicêmica"],
-    "correta": 1,
-    "dica": "A hemoglobina glicada mostra o controle da glicose a longo prazo."
-  },
-  {
-    "pergunta": "O que é vigilância epidemiológica?",
-    "opcoes": ["Controle de epidemias e doenças na população", "Atendimento hospitalar", "Fiscalização de alimentos", "Análise ambiental"],
-    "correta": 0,
-    "dica": "Monitora, detecta e investiga surtos e epidemias."
-  },
-  {
-    "pergunta": "Qual o símbolo internacional de risco biológico?",
-    "opcoes": ["Triângulo verde", "Círculo azul", "Trevo preto em fundo amarelo", "Quadrado vermelho"],
-    "correta": 2,
-    "dica": "O símbolo indica materiais potencialmente infectantes."
-  },
-  {
-    "pergunta": "Qual EPI é essencial para aplicação de vacinas?",
-    "opcoes": ["Capacete", "Luvas e máscara", "Sapato de segurança", "Jaleco térmico"],
-    "correta": 1,
-    "dica": "O uso de luvas e máscara protege o profissional e o paciente."
-  },
-  {
-    "pergunta": "A febre amarela é transmitida por qual vetor?",
-    "opcoes": ["Aedes aegypti", "Culex", "Anopheles", "Triatoma infestans"],
-    "correta": 0,
-    "dica": "O mesmo mosquito da dengue transmite a febre amarela urbana."
-  },
-  {
-    "pergunta": "A vacina antitetânica é aplicada por qual via?",
-    "opcoes": ["Intradérmica", "Intramuscular", "Subcutânea", "Oral"],
-    "correta": 1,
-    "dica": "Aplicada por via intramuscular, geralmente no deltoide."
-  },
-  {
-    "pergunta": "O exame Papanicolau detecta:",
-    "opcoes": ["Câncer de colo de útero", "Câncer de mama", "Infecção urinária", "Hepatite"],
-    "correta": 0,
-    "dica": "É o principal exame preventivo do câncer do colo do útero."
-  },
-  {
-    "pergunta": "A coleta de sangue venoso deve ser feita com:",
-    "opcoes": ["Material reutilizável", "Material estéril e descartável", "Equipamento doméstico", "Sem luvas"],
-    "correta": 1,
-    "dica": "Segurança e higiene são essenciais na coleta venosa."
-  },
-  {
-    "pergunta": "O que é profilaxia?",
-    "opcoes": ["Tratamento curativo", "Ação de prevenção de doenças", "Diagnóstico laboratorial", "Reabilitação"],
-    "correta": 1,
-    "dica": "Profilaxia é qualquer medida preventiva para evitar doenças."
-  },
-  {
-    "pergunta": "O que é imunização?",
-    "opcoes": ["Administração de medicamentos", "Indução de resposta imune por vacinas", "Coleta de sangue", "Controle de epidemias"],
-    "correta": 1,
-    "dica": "A imunização estimula o corpo a produzir anticorpos contra doenças específicas."
-  }
+{
+"pergunta": "O que é Saúde Coletiva?",
+"opcoes": [
+"Conjunto de ações que promovem, protegem e recuperam a saúde de uma pessoa apenas.",
+"Conjunto de ações que se concentram apenas no tratamento de doenças em hospitais.",
+"Conjunto de ações que promovem, protegem e recuperam a saúde da população, focando na prevenção e na qualidade de vida.",
+"Ações que lidam exclusivamente com a coleta de lixo e saneamento básico."
+],
+"correta": 2,
+"dica": "Lembre-se do foco: a saúde de grupos e comunidades, não apenas de um indivíduo."
+},
+{
+"pergunta": "De acordo com a Portaria nº 648/2006, qual é a composição de uma equipe de Atenção Primária?",
+"opcoes": [
+"1 médico, 1 enfermeiro, 2 técnicos de enfermagem e 1 agente comunitário.",
+"1 médico, 1 enfermeiro, 1 técnico/auxiliar de enfermagem e 4 a 6 agentes comunitários.",
+"Apenas médicos e enfermeiros, sem outros profissionais.",
+"1 enfermeiro, 1 técnico de enfermagem e 10 agentes comunitários."
+],
+"correta": 1,
+"dica": "Esta portaria define a estrutura das equipes que trabalham na Atenção Básica de Saúde."
+},
+{
+"pergunta": "Quantas pessoas uma equipe de Atenção Primária pode atender, de acordo com a Portaria nº 648/2006?",
+"opcoes": [
+"Até 1.000 pessoas.",
+"Até 2.500 pessoas.",
+"Até 4.000 pessoas.",
+"Não há um número definido, depende da região."
+],
+"correta": 2,
+"dica": "Pense no alcance de uma equipe de saúde da família."
+},
+{
+"pergunta": "Qual é a via de administração de medicamentos utilizada para aplicar a vacina BCG e em que quantidade?",
+"opcoes": [
+"Intravenosa (IV) em até 5 ml.",
+"Intradérmica (ID) em até 0,1 ml.",
+"Intramuscular (IM) em até 1 ml.",
+"Subcutânea (SC) em até 5 ml."
+],
+"correta": 1,
+"dica": "A via intradérmica é utilizada para testes de sensibilidade e algumas vacinas."
+},
+{
+"pergunta": "Qual é o principal objetivo do Programa Saúde da Família (PSF)?",
+"opcoes": [
+"Oferecer apenas tratamentos de emergência.",
+"Acompanhar famílias com foco na prevenção e educação em saúde.",
+"Realizar cirurgias de alta complexidade.",
+"Distribuir medicamentos de forma aleatória."
+],
+"correta": 1,
+"dica": "O PSF foca na proximidade com a comunidade e na continuidade do cuidado."
+},
+{
+"pergunta": "Qual é a temperatura corporal considerada normal em adultos?",
+"opcoes": [
+"35°C a 36°C.",
+"36°C a 37,5°C.",
+"37,6°C a 38,5°C.",
+"39°C ou mais."
+],
+"correta": 1,
+"dica": "Lembre-se dos parâmetros de sinais vitais para adultos."
+},
+{
+"pergunta": "Qual é o valor normal da Pressão Arterial (PA) em um adulto, de acordo com os parâmetros de sinais vitais?",
+"opcoes": [
+"140x90 mmHg.",
+"110x70 mmHg.",
+"120x80 mmHg.",
+"130x85 mmHg."
+],
+"correta": 2,
+"dica": "Este é um dos sinais vitais mais importantes para monitorar."
+},
+{
+"pergunta": "Qual é o pulso normal (FC) em batimentos por minuto (bpm) para um adulto?",
+"opcoes": [
+"40 a 50 bpm.",
+"60 a 100 bpm.",
+"110 a 120 bpm.",
+"150 a 180 bpm."
+],
+"correta": 1,
+"dica": "Pense na frequência cardíaca em repouso."
+},
+{
+"pergunta": "Qual é a saturação de oxigênio (SpO2) considerada normal em um adulto?",
+"opcoes": [
+"Abaixo de 90%.",
+"92% a 94%.",
+"≥95%.",
+"Não há um valor de referência."
+],
+"correta": 2,
+"dica": "A saturação de oxigênio indica a quantidade de oxigênio no sangue."
+},
+{
+"pergunta": "Qual é a forma de transmissão da Hepatite A?",
+"opcoes": [
+"Apenas por sangue e contato sexual.",
+"Pela água e por alimentos contaminados.",
+"Somente por transfusão de sangue.",
+"Apenas pelo contato direto com a pele."
+],
+"correta": 1,
+"dica": "Pense na higiene e saneamento básico."
+},
+{
+"pergunta": "Qual é a principal via de transmissão da Hepatite B?",
+"opcoes": [
+"Apenas por água contaminada.",
+"Por sangue, contato sexual e parto.",
+"Somente por alimentos contaminados.",
+"Pela tosse e pelo espirro."
+],
+"correta": 1,
+"dica": "Lembre-se das vias de transmissão mais comuns para essa hepatite."
+},
+{
+"pergunta": "Qual órgão é afetado pelas Hepatites A, B e C?",
+"opcoes": [
+"Pulmões.",
+"Coração.",
+"Fígado.",
+"Rins."
+],
+"correta": 2,
+"dica": "A inflamação do fígado é a característica principal das hepatites."
+},
+{
+"pergunta": "Quais são os principais exames utilizados para diagnosticar a Hepatite B e C, respectivamente?",
+"opcoes": [
+"HBsAg e Anti-HCV.",
+"IgM anti-HAV e HBsAg.",
+"Apenas exames de urina.",
+"Hemograma completo."
+],
+"correta": 0,
+"dica": "O HBsAg é um marcador de superfície do vírus da hepatite B."
+},
+{
+"pergunta": "A qual via de administração pertence a sigla IM e qual a quantidade máxima que pode ser administrada?",
+"opcoes": [
+"Intradérmica (ID) em até 0,1 ml.",
+"Intramuscular (IM) em até 5 ml.",
+"Intravenosa (IV) em até 10 ml.",
+"Subcutânea (SC) em até 1 ml."
+],
+"correta": 1,
+"dica": "A via intramuscular é muito comum para aplicar vacinas e medicamentos de grande volume."
+},
+{
+"pergunta": "Qual via de administração de medicamentos permite a aplicação de volumes de até 1 ml no tecido subcutâneo?",
+"opcoes": [
+"Intramuscular (IM).",
+"Intradérmica (ID).",
+"Subcutânea (SC).",
+"Intravenosa (IV)."
+],
+"correta": 2,
+"dica": "Pense em injeções de insulina e algumas vacinas."
+},
+{
+"pergunta": "Qual via de administração é utilizada para injetar medicamentos diretamente na veia?",
+"opcoes": [
+"Intradérmica (ID).",
+"Subcutânea (SC).",
+"Intramuscular (IM).",
+"Intravenosa (IV)."
+],
+"correta": 3,
+"dica": "Esta via permite que a medicação atinja a corrente sanguínea rapidamente."
+},
+{
+"pergunta": "Qual cor de tubo de coleta de sangue é utilizada para realizar um hemograma e qual seu anticoagulante?",
+"opcoes": [
+"Roxo (EDTA).",
+"Vermelho (sem aditivo).",
+"Azul (citrato de sódio).",
+"Cinza (fluoreto de sódio)."
+],
+"correta": 0,
+"dica": "O EDTA é um anticoagulante que preserva as células sanguíneas."
+},
+{
+"pergunta": "Se um exame de glicose precisa ser feito, qual cor de tubo de coleta deve ser utilizado?",
+"opcoes": [
+"Roxo.",
+"Verde.",
+"Azul.",
+"Cinza."
+],
+"correta": 3,
+"dica": "O fluoreto de sódio presente neste tubo impede que a glicose seja metabolizada pelas células."
+},
+{
+"pergunta": "Qual é o principal exame de prevenção para o Câncer de Mama?",
+"opcoes": [
+"Autoexame.",
+"Exame de sangue.",
+"Mamografia.",
+"Radiografia de tórax."
+],
+"correta": 2,
+"dica": "Este exame é um rastreamento importante para detectar alterações precocemente."
+},
+{
+"pergunta": "O que o autoexame da mama é capaz de fazer?",
+"opcoes": [
+"Substituir a mamografia anual.",
+"Garantir a ausência de câncer.",
+"Ajudar na detecção de nódulos ou alterações na mama.",
+"Não tem utilidade na prevenção do câncer de mama."
+],
+"correta": 2,
+"dica": "Embora não substitua a mamografia, é uma ferramenta importante para que a própria pessoa conheça seu corpo."
+},
+{
+"pergunta": "No calendário de vacinação, quais são as vacinas aplicadas ao nascer?",
+"opcoes": [
+"Pólio e Rotavírus.",
+"BCG e Hepatite B.",
+"Tríplice Viral e DTP.",
+"Pentavalente e VIP."
+],
+"correta": 1,
+"dica": "Estas são as primeiras vacinas que um recém-nascido recebe."
+},
+{
+"pergunta": "Quais vacinas são administradas aos 2 meses de idade?",
+"opcoes": [
+"Hepatite B e BCG.",
+"Meningocócica C e Febre Amarela.",
+"Pentavalente, VIP, Rotavírus e Pneumo 10.",
+"DTP e VOP."
+],
+"correta": 2,
+"dica": "Esta é uma das idades com mais vacinas na caderneta."
+},
+{
+"pergunta": "A qual doença a vacina DTP se refere?",
+"opcoes": [
+"Difteria, Tétano e Pólio.",
+"Difteria, Tétano e Tosse convulsa (Coqueluche).",
+"Dengue, Tuberculose e Pneumonia.",
+"Diarreia, Tifo e Parotidite."
+],
+"correta": 1,
+"dica": "A sigla DTP é um acrônimo para as três doenças que previne."
+},
+{
+"pergunta": "Quais vacinas são recomendadas para adolescentes entre 9 e 10 anos?",
+"opcoes": [
+"BCG e Hepatite B.",
+"Febre Amarela e Pólio.",
+"HPV e Meningocócica ACWY.",
+"DTP e VOP."
+],
+"correta": 2,
+"dica": "Estas vacinas previnem infecções importantes para essa faixa etária."
+},
+{
+"pergunta": "Qual via de administração é indicada para a aplicação da vacina BCG?",
+"opcoes": [
+"Intramuscular (IM).",
+"Subcutânea (SC).",
+"Intradérmica (ID).",
+"Oral (VO)."
+],
+"correta": 2,
+"dica": "Esta via é usada para medicamentos que necessitam de absorção lenta, gerando uma reação local."
+},
+{
+"pergunta": "Qual via de administração pode ter volume 'Livre'?",
+"opcoes": [
+"Intramuscular (IM).",
+"Intradérmica (ID).",
+"Subcutânea (SC).",
+"Intravenosa (IV)."
+],
+"correta": 3,
+"dica": "Nesta via, a administração é diretamente na corrente sanguínea, permitindo grandes volumes."
+},
+{
+"pergunta": "Se um paciente precisa realizar um exame de coagulação, qual tubo de coleta de sangue deve ser usado?",
+"opcoes": [
+"Roxo (EDTA).",
+"Azul (citrato de sódio).",
+"Verde (heparina).",
+"Vermelho (sem aditivo)."
+],
+"correta": 1,
+"dica": "O citrato de sódio é o anticoagulante específico para testes de coagulação."
+},
+{
+"pergunta": "Qual anticoagulante está presente no tubo de coleta de sangue verde?",
+"opcoes": [
+"EDTA.",
+"Citrato de sódio.",
+"Fluoreto de sódio.",
+"Heparina."
+],
+"correta": 3,
+"dica": "Este anticoagulante é usado para exames como gasometria e bioquímica."
+},
+{
+"pergunta": "Qual é a via de administração com a sigla SC e qual a quantidade máxima que pode ser administrada?",
+"opcoes": [
+"Subcutânea (SC) em até 1 ml.",
+"Intramuscular (IM) em até 5 ml.",
+"Intradérmica (ID) em até 0,1 ml.",
+"Intravenosa (IV) com volume livre."
+],
+"correta": 0,
+"dica": "É a via utilizada para injeções no tecido adiposo."
+},
+{
+"pergunta": "O que caracteriza a Hepatite C?",
+"opcoes": [
+"É sempre uma infecção aguda.",
+"É transmitida apenas por água e alimentos.",
+"Pode se tornar crônica e evoluir para cirrose.",
+"É prevenida com vacinação universal."
+],
+"correta": 2,
+"dica": "O tipo de infecção da Hepatite C é, em sua maioria, crônica."
+},
+{
+"pergunta": "Qual dos seguintes é um sintoma comum das hepatites A, B e C?",
+"opcoes": [
+"Dores musculares.",
+"Icterícia (pele e olhos amarelados).",
+"Espirros constantes.",
+"Aumento da pressão arterial."
+],
+"correta": 1,
+"dica": "A icterícia é um sinal clássico de problemas hepáticos."
+},
+{
+"pergunta": "A vacina Tríplice Viral previne quais doenças?",
+"opcoes": [
+"Tuberculose, Varicela e Sarampo.",
+"Sarampo, Caxumba e Rubéola.",
+"Difteria, Tétano e Pólio.",
+"Febre Amarela, Hepatite A e B."
+],
+"correta": 1,
+"dica": "O nome 'tríplice' indica que a vacina protege contra três doenças."
+},
+{
+"pergunta": "Em qual idade, de acordo com o calendário de vacinação, a vacina contra a Febre Amarela é indicada?",
+"opcoes": [
+"Ao nascer.",
+"2 meses.",
+"9 meses (se indicado).",
+"Apenas na fase adulta."
+],
+"correta": 2,
+"dica": "A aplicação pode variar dependendo da região e recomendação epidemiológica."
+},
+{
+"pergunta": "Qual a principal medida de prevenção contra o Câncer de Mama, além da mamografia?",
+"opcoes": [
+"Uso de medicamentos específicos.",
+"Alimentação saudável e autoexame.",
+"Exposição ao sol.",
+"Dieta rica em gordura."
+],
+"correta": 1,
+"dica": "A prevenção envolve hábitos de vida e o conhecimento do próprio corpo."
+},
+{
+"pergunta": "O que o Programa de Hipertensão (HAS) e Diabetes (DM) busca?",
+"opcoes": [
+"Apenas o tratamento de casos graves em hospitais.",
+"Controle das doenças com acompanhamento, medição de PA/glicemia e educação em saúde.",
+"Apenas a distribuição de medicamentos sem acompanhamento.",
+"Não há um programa específico para essas doenças na Atenção Básica."
+],
+"correta": 1,
+"dica": "Estes programas focam no manejo e controle contínuo dessas doenças crônicas."
+},
+{
+"pergunta": "Qual a via de administração utilizada para aplicar vacinas como a da Pólio (VOP)?",
+"opcoes": [
+"Intradérmica (ID).",
+"Oral (VO).",
+"Intramuscular (IM).",
+"Subcutânea (SC)."
+],
+"correta": 1,
+"dica": "A vacina VOP, contra a Pólio, é administrada em gotas."
+},
+{
+"pergunta": "Qual exame é indicado para monitorar o diabetes?",
+"opcoes": [
+"Exame de coagulação.",
+"Hemograma.",
+"Medição da pressão arterial.",
+"Medição da glicemia."
+],
+"correta": 3,
+"dica": "O controle do diabetes se baseia na medição dos níveis de açúcar no sangue."
+},
+{
+"pergunta": "Qual via de administração é indicada para a aplicação de uma vacina na camada superior da pele?",
+"opcoes": [
+"Intravenosa (IV).",
+"Intradérmica (ID).",
+"Intramuscular (IM).",
+"Oral (VO)."
+],
+"correta": 1,
+"dica": "Esta via é usada para testes de alergia e a vacina BCG."
+},
+{
+"pergunta": "Qual a principal característica da Atenção Primária em Saúde, de acordo com o que foi estudado?",
+"opcoes": [
+"Cuidado esporádico e reativo.",
+"Primeiro contato e acompanhamento contínuo da população.",
+"Ações de alta complexidade em ambiente hospitalar.",
+"Tratamento de doenças graves e raras."
+],
+"correta": 1,
+"dica": "A Atenção Primária é a porta de entrada para o sistema de saúde."
+},
+{
+"pergunta": "Em relação à administração de medicamentos, qual é o volume máximo em ml que pode ser administrado pela via Subcutânea (SC)?",
+"opcoes": [
+"Até 5 ml.",
+"Até 1 ml.",
+"Até 0,1 ml.",
+"Não há limite."
+],
+"correta": 1,
+"dica": "Pense nas injeções de insulina, que são de pequeno volume."
+},
+{
+"pergunta": "Quais exames podem ser realizados com o tubo de coleta de sangue com a tampa vermelha?",
+"opcoes": [
+"Hemograma.",
+"Coagulação.",
+"Sorologia e bioquímica.",
+"Glicose."
+],
+"correta": 2,
+"dica": "Este tubo não contém aditivo, permitindo a separação do soro."
+},
+{
+"pergunta": "Qual o valor normal da respiração (FR) em incursões respiratórias por minuto (irpm) para um adulto?",
+"opcoes": [
+"10 a 14 irpm.",
+"16 a 20 irpm.",
+"22 a 26 irpm.",
+"Acima de 30 irpm."
+],
+"correta": 1,
+"dica": "Um dos parâmetros essenciais dos sinais vitais."
+},
+{
+"pergunta": "Quais são os principais sintomas da Hepatite B?",
+"opcoes": [
+"Apenas dor no corpo.",
+"Febre e enjoo.",
+"Icterícia e febre.",
+"Fadiga e dor no corpo."
+],
+"correta": 3,
+"dica": "Pense em uma infecção viral que pode ser crônica ou aguda."
+},
+{
+"pergunta": "Quais vacinas são administradas aos 12 meses de idade?",
+"opcoes": [
+"Hepatite A e B.",
+"Febre Amarela e BCG.",
+"Tríplice Viral e reforço da Pneumo 10.",
+"Rotavírus e VIP."
+],
+"correta": 2,
+"dica": "É a idade do reforço de algumas vacinas e da aplicação da Tríplice Viral."
+},
+{
+"pergunta": "A via de administração de medicamentos Oral (VO) é feita em qual local?",
+"opcoes": [
+"No músculo.",
+"Na veia.",
+"Na pele.",
+"Na boca."
+],
+"correta": 3,
+"dica": "É a via mais comum e mais segura para a maioria dos medicamentos."
+},
+{
+"pergunta": "Qual via de administração é indicada para aplicação de grandes volumes (até 5 ml) em um músculo?",
+"opcoes": [
+"Intradérmica (ID).",
+"Subcutânea (SC).",
+"Intramuscular (IM).",
+"Intravenosa (IV)."
+],
+"correta": 2,
+"dica": "Esta via é usada para medicamentos que precisam ser absorvidos mais lentamente, como antibióticos."
+},
+{
+"pergunta": "Qual anticoagulante é usado no tubo de coleta de sangue azul para exames de coagulação?",
+"opcoes": [
+"EDTA.",
+"Citrato de sódio.",
+"Heparina.",
+"Fluoreto de sódio."
+],
+"correta": 1,
+"dica": "O anticoagulante desta cor é específico para testes de coagulação."
+},
+{
+"pergunta": "Qual exame é associado ao uso do tubo de coleta de sangue roxo (EDTA)?",
+"opcoes": [
+"Sorologia.",
+"Glicose.",
+"Hemograma.",
+"Coagulação."
+],
+"correta": 2,
+"dica": "O EDTA é o anticoagulante ideal para preservar a morfologia celular no hemograma."
+},
+{
+"pergunta": "Quais são as principais vacinas administradas aos 15 meses?",
+"opcoes": [
+"BCG e Hepatite B.",
+"Pentavalente e VIP.",
+"DTP, VOP, Meningo C e Hepatite A.",
+"Febre Amarela e HPV."
+],
+"correta": 2,
+"dica": "Esta é a idade de reforço de várias vacinas importantes."
+},
+{
+"pergunta": "O que a Atenção Básica de Saúde oferece à população?",
+"opcoes": [
+"Apenas o tratamento de doenças graves.",
+"O primeiro contato e acompanhamento contínuo da saúde.",
+"Apenas o controle da pressão arterial e glicemia.",
+"Serviços exclusivos de vacinação."
+],
+"correta": 1,
+"dica": "A Atenção Básica é a porta de entrada para o sistema de saúde, oferecendo cuidado integral."
+},
+{
+"pergunta": "Qual via de administração de medicamentos é utilizada para a aplicação de insulina?",
+"opcoes": [
+"Intramuscular (IM).",
+"Intravenosa (IV).",
+"Subcutânea (SC).",
+"Intradérmica (ID)."
+],
+"correta": 2,
+"dica": "A absorção lenta e constante da insulina é o objetivo da aplicação."
+},
+{
+"pergunta": "O que a Saúde Coletiva prioriza para a população?",
+"opcoes": [
+"O tratamento de doenças individuais.",
+"A prevenção de doenças e a qualidade de vida.",
+"O atendimento de emergência.",
+"O tratamento de cânceres raros."
+],
+"correta": 1,
+"dica": "O foco da saúde coletiva é a promoção e proteção da saúde em nível populacional."
+},
+{
+"pergunta": "Qual o valor normal da Pressão Arterial (PA) em mmHg?",
+"opcoes": [
+"100x60 mmHg.",
+"120x80 mmHg.",
+"140x90 mmHg.",
+"160x100 mmHg."
+],
+"correta": 1,
+"dica": "Este valor é o padrão para um adulto em repouso."
+},
+{
+"pergunta": "Qual o volume máximo que pode ser administrado pela via intradérmica (ID)?",
+"opcoes": [
+"Até 5 ml.",
+"Até 1 ml.",
+"Até 0,1 ml.",
+"Até 10 ml."
+],
+"correta": 2,
+"dica": "Esta via é usada para volumes muito pequenos, pois a pele tem uma capacidade limitada de absorção."
+},
+{
+"pergunta": "O que o tubo de coleta de sangue com a tampa vermelha contém como aditivo?",
+"opcoes": [
+"EDTA.",
+"Citrato de sódio.",
+"Heparina.",
+"Nenhum aditivo."
+],
+"correta": 3,
+"dica": "A ausência de aditivo permite que o sangue coagule."
+},
+{
+"pergunta": "Qual vacina é administrada aos 4 anos?",
+"opcoes": [
+"Hepatite B e BCG.",
+"Tríplice Viral e Pneumo 10.",
+"DTP, VOP e Febre Amarela.",
+"Pentavalente e Rotavírus."
+],
+"correta": 2,
+"dica": "São reforços importantes para a saúde da criança."
+},
+{
+"pergunta": "Como a Hepatite C é transmitida?",
+"opcoes": [
+"Pela água e por alimentos contaminados.",
+"Pelo sangue contaminado.",
+"Pela tosse e pelo espirro.",
+"Apenas pelo contato sexual."
+],
+"correta": 1,
+"dica": "A principal via de transmissão é o contato com sangue infectado."
+},
+{
+"pergunta": "O que é o PSF?",
+"opcoes": [
+"Programa de Saúde Familiar.",
+"Programa Saúde da Família (ESF).",
+"Plano de Saúde Federal.",
+"Posto de Saúde Familiar."
+],
+"correta": 1,
+"dica": "A sigla é um acrônimo para o Programa de Saúde da Família."
+},
+{
+"pergunta": "Quais exames são realizados com o tubo de coleta verde?",
+"opcoes": [
+"Hemograma.",
+"Sorologia.",
+"Coagulação.",
+"Gasometria e bioquímica."
+],
+"correta": 3,
+"dica": "A heparina é um anticoagulante que não interfere em exames bioquímicos."
+},
+{
+"pergunta": "Qual é a idade recomendada para a aplicação da vacina HPV?",
+"opcoes": [
+"Ao nascer.",
+"2 meses.",
+"9 a 10 anos.",
+"15 meses."
+],
+"correta": 2,
+"dica": "Esta vacina é importante para prevenir infecções que podem levar a cânceres no futuro."
+},
+{
+"pergunta": "Qual a principal medida de prevenção para o Câncer de Mama, além do autoexame e da mamografia?",
+"opcoes": [
+"Dieta rica em açúcar.",
+"Vida sedentária.",
+"Alimentação saudável.",
+"Fumo e álcool."
+],
+"correta": 2,
+"dica": "Hábitos de vida saudáveis são cruciais para a prevenção."
+},
+{
+"pergunta": "Quantos Agentes Comunitários de Saúde compõem uma equipe, de acordo com a Portaria nº 648/2006?",
+"opcoes": [
+"1 a 2 agentes.",
+"4 a 6 agentes.",
+"Nenhum, não fazem parte da equipe.",
+"Apenas 1 agente."
+],
+"correta": 1,
+"dica": "Eles são a ponte entre a equipe de saúde e a comunidade."
+},
+{
+"pergunta": "Qual a principal diferença entre Saúde Coletiva e o cuidado individual?",
+"opcoes": [
+"A Saúde Coletiva trata apenas de doenças, o individual, de prevenção.",
+"A Saúde Coletiva foca na população, enquanto o cuidado individual foca em um único paciente.",
+"Não há diferença.",
+"A Saúde Coletiva é feita apenas em hospitais."
+],
+"correta": 1,
+"dica": "O foco da ação é a principal diferença."
+}
 ]
 
     
