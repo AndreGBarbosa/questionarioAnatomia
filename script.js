@@ -1,698 +1,701 @@
 const perguntas = [
-{
-"pergunta": "O que é Saúde Coletiva?",
-"opcoes": [
-"Conjunto de ações que promovem, protegem e recuperam a saúde de uma pessoa apenas.",
-"Conjunto de ações que se concentram apenas no tratamento de doenças em hospitais.",
-"Conjunto de ações que promovem, protegem e recuperam a saúde da população, focando na prevenção e na qualidade de vida.",
-"Ações que lidam exclusivamente com a coleta de lixo e saneamento básico."
-],
-"correta": 2,
-"dica": "Lembre-se do foco: a saúde de grupos e comunidades, não apenas de um indivíduo."
-},
-{
-"pergunta": "De acordo com a Portaria nº 648/2006, qual é a composição de uma equipe de Atenção Primária?",
-"opcoes": [
-"1 médico, 1 enfermeiro, 2 técnicos de enfermagem e 1 agente comunitário.",
-"1 médico, 1 enfermeiro, 1 técnico/auxiliar de enfermagem e 4 a 6 agentes comunitários.",
-"Apenas médicos e enfermeiros, sem outros profissionais.",
-"1 enfermeiro, 1 técnico de enfermagem e 10 agentes comunitários."
-],
-"correta": 1,
-"dica": "Esta portaria define a estrutura das equipes que trabalham na Atenção Básica de Saúde."
-},
-{
-"pergunta": "Quantas pessoas uma equipe de Atenção Primária pode atender, de acordo com a Portaria nº 648/2006?",
-"opcoes": [
-"Até 1.000 pessoas.",
-"Até 2.500 pessoas.",
-"Até 4.000 pessoas.",
-"Não há um número definido, depende da região."
-],
-"correta": 2,
-"dica": "Pense no alcance de uma equipe de saúde da família."
-},
-{
-"pergunta": "Qual é a via de administração de medicamentos utilizada para aplicar a vacina BCG e em que quantidade?",
-"opcoes": [
-"Intravenosa (IV) em até 5 ml.",
-"Intradérmica (ID) em até 0,1 ml.",
-"Intramuscular (IM) em até 1 ml.",
-"Subcutânea (SC) em até 5 ml."
-],
-"correta": 1,
-"dica": "A via intradérmica é utilizada para testes de sensibilidade e algumas vacinas."
-},
-{
-"pergunta": "Qual é o principal objetivo do Programa Saúde da Família (PSF)?",
-"opcoes": [
-"Oferecer apenas tratamentos de emergência.",
-"Acompanhar famílias com foco na prevenção e educação em saúde.",
-"Realizar cirurgias de alta complexidade.",
-"Distribuir medicamentos de forma aleatória."
-],
-"correta": 1,
-"dica": "O PSF foca na proximidade com a comunidade e na continuidade do cuidado."
-},
-{
-"pergunta": "Qual é a temperatura corporal considerada normal em adultos?",
-"opcoes": [
-"35°C a 36°C.",
-"36°C a 37,5°C.",
-"37,6°C a 38,5°C.",
-"39°C ou mais."
-],
-"correta": 1,
-"dica": "Lembre-se dos parâmetros de sinais vitais para adultos."
-},
-{
-"pergunta": "Qual é o valor normal da Pressão Arterial (PA) em um adulto, de acordo com os parâmetros de sinais vitais?",
-"opcoes": [
-"140x90 mmHg.",
-"110x70 mmHg.",
-"120x80 mmHg.",
-"130x85 mmHg."
-],
-"correta": 2,
-"dica": "Este é um dos sinais vitais mais importantes para monitorar."
-},
-{
-"pergunta": "Qual é o pulso normal (FC) em batimentos por minuto (bpm) para um adulto?",
-"opcoes": [
-"40 a 50 bpm.",
-"60 a 100 bpm.",
-"110 a 120 bpm.",
-"150 a 180 bpm."
-],
-"correta": 1,
-"dica": "Pense na frequência cardíaca em repouso."
-},
-{
-"pergunta": "Qual é a saturação de oxigênio (SpO2) considerada normal em um adulto?",
-"opcoes": [
-"Abaixo de 90%.",
-"92% a 94%.",
-"≥95%.",
-"Não há um valor de referência."
-],
-"correta": 2,
-"dica": "A saturação de oxigênio indica a quantidade de oxigênio no sangue."
-},
-{
-"pergunta": "Qual é a forma de transmissão da Hepatite A?",
-"opcoes": [
-"Apenas por sangue e contato sexual.",
-"Pela água e por alimentos contaminados.",
-"Somente por transfusão de sangue.",
-"Apenas pelo contato direto com a pele."
-],
-"correta": 1,
-"dica": "Pense na higiene e saneamento básico."
-},
-{
-"pergunta": "Qual é a principal via de transmissão da Hepatite B?",
-"opcoes": [
-"Apenas por água contaminada.",
-"Por sangue, contato sexual e parto.",
-"Somente por alimentos contaminados.",
-"Pela tosse e pelo espirro."
-],
-"correta": 1,
-"dica": "Lembre-se das vias de transmissão mais comuns para essa hepatite."
-},
-{
-"pergunta": "Qual órgão é afetado pelas Hepatites A, B e C?",
-"opcoes": [
-"Pulmões.",
-"Coração.",
-"Fígado.",
-"Rins."
-],
-"correta": 2,
-"dica": "A inflamação do fígado é a característica principal das hepatites."
-},
-{
-"pergunta": "Quais são os principais exames utilizados para diagnosticar a Hepatite B e C, respectivamente?",
-"opcoes": [
-"HBsAg e Anti-HCV.",
-"IgM anti-HAV e HBsAg.",
-"Apenas exames de urina.",
-"Hemograma completo."
-],
-"correta": 0,
-"dica": "O HBsAg é um marcador de superfície do vírus da hepatite B."
-},
-{
-"pergunta": "A qual via de administração pertence a sigla IM e qual a quantidade máxima que pode ser administrada?",
-"opcoes": [
-"Intradérmica (ID) em até 0,1 ml.",
-"Intramuscular (IM) em até 5 ml.",
-"Intravenosa (IV) em até 10 ml.",
-"Subcutânea (SC) em até 1 ml."
-],
-"correta": 1,
-"dica": "A via intramuscular é muito comum para aplicar vacinas e medicamentos de grande volume."
-},
-{
-"pergunta": "Qual via de administração de medicamentos permite a aplicação de volumes de até 1 ml no tecido subcutâneo?",
-"opcoes": [
-"Intramuscular (IM).",
-"Intradérmica (ID).",
-"Subcutânea (SC).",
-"Intravenosa (IV)."
-],
-"correta": 2,
-"dica": "Pense em injeções de insulina e algumas vacinas."
-},
-{
-"pergunta": "Qual via de administração é utilizada para injetar medicamentos diretamente na veia?",
-"opcoes": [
-"Intradérmica (ID).",
-"Subcutânea (SC).",
-"Intramuscular (IM).",
-"Intravenosa (IV)."
-],
-"correta": 3,
-"dica": "Esta via permite que a medicação atinja a corrente sanguínea rapidamente."
-},
-{
-"pergunta": "Qual cor de tubo de coleta de sangue é utilizada para realizar um hemograma e qual seu anticoagulante?",
-"opcoes": [
-"Roxo (EDTA).",
-"Vermelho (sem aditivo).",
-"Azul (citrato de sódio).",
-"Cinza (fluoreto de sódio)."
-],
-"correta": 0,
-"dica": "O EDTA é um anticoagulante que preserva as células sanguíneas."
-},
-{
-"pergunta": "Se um exame de glicose precisa ser feito, qual cor de tubo de coleta deve ser utilizado?",
-"opcoes": [
-"Roxo.",
-"Verde.",
-"Azul.",
-"Cinza."
-],
-"correta": 3,
-"dica": "O fluoreto de sódio presente neste tubo impede que a glicose seja metabolizada pelas células."
-},
-{
-"pergunta": "Qual é o principal exame de prevenção para o Câncer de Mama?",
-"opcoes": [
-"Autoexame.",
-"Exame de sangue.",
-"Mamografia.",
-"Radiografia de tórax."
-],
-"correta": 2,
-"dica": "Este exame é um rastreamento importante para detectar alterações precocemente."
-},
-{
-"pergunta": "O que o autoexame da mama é capaz de fazer?",
-"opcoes": [
-"Substituir a mamografia anual.",
-"Garantir a ausência de câncer.",
-"Ajudar na detecção de nódulos ou alterações na mama.",
-"Não tem utilidade na prevenção do câncer de mama."
-],
-"correta": 2,
-"dica": "Embora não substitua a mamografia, é uma ferramenta importante para que a própria pessoa conheça seu corpo."
-},
-{
-"pergunta": "No calendário de vacinação, quais são as vacinas aplicadas ao nascer?",
-"opcoes": [
-"Pólio e Rotavírus.",
-"BCG e Hepatite B.",
-"Tríplice Viral e DTP.",
-"Pentavalente e VIP."
-],
-"correta": 1,
-"dica": "Estas são as primeiras vacinas que um recém-nascido recebe."
-},
-{
-"pergunta": "Quais vacinas são administradas aos 2 meses de idade?",
-"opcoes": [
-"Hepatite B e BCG.",
-"Meningocócica C e Febre Amarela.",
-"Pentavalente, VIP, Rotavírus e Pneumo 10.",
-"DTP e VOP."
-],
-"correta": 2,
-"dica": "Esta é uma das idades com mais vacinas na caderneta."
-},
-{
-"pergunta": "A qual doença a vacina DTP se refere?",
-"opcoes": [
-"Difteria, Tétano e Pólio.",
-"Difteria, Tétano e Tosse convulsa (Coqueluche).",
-"Dengue, Tuberculose e Pneumonia.",
-"Diarreia, Tifo e Parotidite."
-],
-"correta": 1,
-"dica": "A sigla DTP é um acrônimo para as três doenças que previne."
-},
-{
-"pergunta": "Quais vacinas são recomendadas para adolescentes entre 9 e 10 anos?",
-"opcoes": [
-"BCG e Hepatite B.",
-"Febre Amarela e Pólio.",
-"HPV e Meningocócica ACWY.",
-"DTP e VOP."
-],
-"correta": 2,
-"dica": "Estas vacinas previnem infecções importantes para essa faixa etária."
-},
-{
-"pergunta": "Qual via de administração é indicada para a aplicação da vacina BCG?",
-"opcoes": [
-"Intramuscular (IM).",
-"Subcutânea (SC).",
-"Intradérmica (ID).",
-"Oral (VO)."
-],
-"correta": 2,
-"dica": "Esta via é usada para medicamentos que necessitam de absorção lenta, gerando uma reação local."
-},
-{
-"pergunta": "Qual via de administração pode ter volume 'Livre'?",
-"opcoes": [
-"Intramuscular (IM).",
-"Intradérmica (ID).",
-"Subcutânea (SC).",
-"Intravenosa (IV)."
-],
-"correta": 3,
-"dica": "Nesta via, a administração é diretamente na corrente sanguínea, permitindo grandes volumes."
-},
-{
-"pergunta": "Se um paciente precisa realizar um exame de coagulação, qual tubo de coleta de sangue deve ser usado?",
-"opcoes": [
-"Roxo (EDTA).",
-"Azul (citrato de sódio).",
-"Verde (heparina).",
-"Vermelho (sem aditivo)."
-],
-"correta": 1,
-"dica": "O citrato de sódio é o anticoagulante específico para testes de coagulação."
-},
-{
-"pergunta": "Qual anticoagulante está presente no tubo de coleta de sangue verde?",
-"opcoes": [
-"EDTA.",
-"Citrato de sódio.",
-"Fluoreto de sódio.",
-"Heparina."
-],
-"correta": 3,
-"dica": "Este anticoagulante é usado para exames como gasometria e bioquímica."
-},
-{
-"pergunta": "Qual é a via de administração com a sigla SC e qual a quantidade máxima que pode ser administrada?",
-"opcoes": [
-"Subcutânea (SC) em até 1 ml.",
-"Intramuscular (IM) em até 5 ml.",
-"Intradérmica (ID) em até 0,1 ml.",
-"Intravenosa (IV) com volume livre."
-],
-"correta": 0,
-"dica": "É a via utilizada para injeções no tecido adiposo."
-},
-{
-"pergunta": "O que caracteriza a Hepatite C?",
-"opcoes": [
-"É sempre uma infecção aguda.",
-"É transmitida apenas por água e alimentos.",
-"Pode se tornar crônica e evoluir para cirrose.",
-"É prevenida com vacinação universal."
-],
-"correta": 2,
-"dica": "O tipo de infecção da Hepatite C é, em sua maioria, crônica."
-},
-{
-"pergunta": "Qual dos seguintes é um sintoma comum das hepatites A, B e C?",
-"opcoes": [
-"Dores musculares.",
-"Icterícia (pele e olhos amarelados).",
-"Espirros constantes.",
-"Aumento da pressão arterial."
-],
-"correta": 1,
-"dica": "A icterícia é um sinal clássico de problemas hepáticos."
-},
-{
-"pergunta": "A vacina Tríplice Viral previne quais doenças?",
-"opcoes": [
-"Tuberculose, Varicela e Sarampo.",
-"Sarampo, Caxumba e Rubéola.",
-"Difteria, Tétano e Pólio.",
-"Febre Amarela, Hepatite A e B."
-],
-"correta": 1,
-"dica": "O nome 'tríplice' indica que a vacina protege contra três doenças."
-},
-{
-"pergunta": "Em qual idade, de acordo com o calendário de vacinação, a vacina contra a Febre Amarela é indicada?",
-"opcoes": [
-"Ao nascer.",
-"2 meses.",
-"9 meses (se indicado).",
-"Apenas na fase adulta."
-],
-"correta": 2,
-"dica": "A aplicação pode variar dependendo da região e recomendação epidemiológica."
-},
-{
-"pergunta": "Qual a principal medida de prevenção contra o Câncer de Mama, além da mamografia?",
-"opcoes": [
-"Uso de medicamentos específicos.",
-"Alimentação saudável e autoexame.",
-"Exposição ao sol.",
-"Dieta rica em gordura."
-],
-"correta": 1,
-"dica": "A prevenção envolve hábitos de vida e o conhecimento do próprio corpo."
-},
-{
-"pergunta": "O que o Programa de Hipertensão (HAS) e Diabetes (DM) busca?",
-"opcoes": [
-"Apenas o tratamento de casos graves em hospitais.",
-"Controle das doenças com acompanhamento, medição de PA/glicemia e educação em saúde.",
-"Apenas a distribuição de medicamentos sem acompanhamento.",
-"Não há um programa específico para essas doenças na Atenção Básica."
-],
-"correta": 1,
-"dica": "Estes programas focam no manejo e controle contínuo dessas doenças crônicas."
-},
-{
-"pergunta": "Qual a via de administração utilizada para aplicar vacinas como a da Pólio (VOP)?",
-"opcoes": [
-"Intradérmica (ID).",
-"Oral (VO).",
-"Intramuscular (IM).",
-"Subcutânea (SC)."
-],
-"correta": 1,
-"dica": "A vacina VOP, contra a Pólio, é administrada em gotas."
-},
-{
-"pergunta": "Qual exame é indicado para monitorar o diabetes?",
-"opcoes": [
-"Exame de coagulação.",
-"Hemograma.",
-"Medição da pressão arterial.",
-"Medição da glicemia."
-],
-"correta": 3,
-"dica": "O controle do diabetes se baseia na medição dos níveis de açúcar no sangue."
-},
-{
-"pergunta": "Qual via de administração é indicada para a aplicação de uma vacina na camada superior da pele?",
-"opcoes": [
-"Intravenosa (IV).",
-"Intradérmica (ID).",
-"Intramuscular (IM).",
-"Oral (VO)."
-],
-"correta": 1,
-"dica": "Esta via é usada para testes de alergia e a vacina BCG."
-},
-{
-"pergunta": "Qual a principal característica da Atenção Primária em Saúde, de acordo com o que foi estudado?",
-"opcoes": [
-"Cuidado esporádico e reativo.",
-"Primeiro contato e acompanhamento contínuo da população.",
-"Ações de alta complexidade em ambiente hospitalar.",
-"Tratamento de doenças graves e raras."
-],
-"correta": 1,
-"dica": "A Atenção Primária é a porta de entrada para o sistema de saúde."
-},
-{
-"pergunta": "Em relação à administração de medicamentos, qual é o volume máximo em ml que pode ser administrado pela via Subcutânea (SC)?",
-"opcoes": [
-"Até 5 ml.",
-"Até 1 ml.",
-"Até 0,1 ml.",
-"Não há limite."
-],
-"correta": 1,
-"dica": "Pense nas injeções de insulina, que são de pequeno volume."
-},
-{
-"pergunta": "Quais exames podem ser realizados com o tubo de coleta de sangue com a tampa vermelha?",
-"opcoes": [
-"Hemograma.",
-"Coagulação.",
-"Sorologia e bioquímica.",
-"Glicose."
-],
-"correta": 2,
-"dica": "Este tubo não contém aditivo, permitindo a separação do soro."
-},
-{
-"pergunta": "Qual o valor normal da respiração (FR) em incursões respiratórias por minuto (irpm) para um adulto?",
-"opcoes": [
-"10 a 14 irpm.",
-"16 a 20 irpm.",
-"22 a 26 irpm.",
-"Acima de 30 irpm."
-],
-"correta": 1,
-"dica": "Um dos parâmetros essenciais dos sinais vitais."
-},
-{
-"pergunta": "Quais são os principais sintomas da Hepatite B?",
-"opcoes": [
-"Apenas dor no corpo.",
-"Febre e enjoo.",
-"Icterícia e febre.",
-"Fadiga e dor no corpo."
-],
-"correta": 3,
-"dica": "Pense em uma infecção viral que pode ser crônica ou aguda."
-},
-{
-"pergunta": "Quais vacinas são administradas aos 12 meses de idade?",
-"opcoes": [
-"Hepatite A e B.",
-"Febre Amarela e BCG.",
-"Tríplice Viral e reforço da Pneumo 10.",
-"Rotavírus e VIP."
-],
-"correta": 2,
-"dica": "É a idade do reforço de algumas vacinas e da aplicação da Tríplice Viral."
-},
-{
-"pergunta": "A via de administração de medicamentos Oral (VO) é feita em qual local?",
-"opcoes": [
-"No músculo.",
-"Na veia.",
-"Na pele.",
-"Na boca."
-],
-"correta": 3,
-"dica": "É a via mais comum e mais segura para a maioria dos medicamentos."
-},
-{
-"pergunta": "Qual via de administração é indicada para aplicação de grandes volumes (até 5 ml) em um músculo?",
-"opcoes": [
-"Intradérmica (ID).",
-"Subcutânea (SC).",
-"Intramuscular (IM).",
-"Intravenosa (IV)."
-],
-"correta": 2,
-"dica": "Esta via é usada para medicamentos que precisam ser absorvidos mais lentamente, como antibióticos."
-},
-{
-"pergunta": "Qual anticoagulante é usado no tubo de coleta de sangue azul para exames de coagulação?",
-"opcoes": [
-"EDTA.",
-"Citrato de sódio.",
-"Heparina.",
-"Fluoreto de sódio."
-],
-"correta": 1,
-"dica": "O anticoagulante desta cor é específico para testes de coagulação."
-},
-{
-"pergunta": "Qual exame é associado ao uso do tubo de coleta de sangue roxo (EDTA)?",
-"opcoes": [
-"Sorologia.",
-"Glicose.",
-"Hemograma.",
-"Coagulação."
-],
-"correta": 2,
-"dica": "O EDTA é o anticoagulante ideal para preservar a morfologia celular no hemograma."
-},
-{
-"pergunta": "Quais são as principais vacinas administradas aos 15 meses?",
-"opcoes": [
-"BCG e Hepatite B.",
-"Pentavalente e VIP.",
-"DTP, VOP, Meningo C e Hepatite A.",
-"Febre Amarela e HPV."
-],
-"correta": 2,
-"dica": "Esta é a idade de reforço de várias vacinas importantes."
-},
-{
-"pergunta": "O que a Atenção Básica de Saúde oferece à população?",
-"opcoes": [
-"Apenas o tratamento de doenças graves.",
-"O primeiro contato e acompanhamento contínuo da saúde.",
-"Apenas o controle da pressão arterial e glicemia.",
-"Serviços exclusivos de vacinação."
-],
-"correta": 1,
-"dica": "A Atenção Básica é a porta de entrada para o sistema de saúde, oferecendo cuidado integral."
-},
-{
-"pergunta": "Qual via de administração de medicamentos é utilizada para a aplicação de insulina?",
-"opcoes": [
-"Intramuscular (IM).",
-"Intravenosa (IV).",
-"Subcutânea (SC).",
-"Intradérmica (ID)."
-],
-"correta": 2,
-"dica": "A absorção lenta e constante da insulina é o objetivo da aplicação."
-},
-{
-"pergunta": "O que a Saúde Coletiva prioriza para a população?",
-"opcoes": [
-"O tratamento de doenças individuais.",
-"A prevenção de doenças e a qualidade de vida.",
-"O atendimento de emergência.",
-"O tratamento de cânceres raros."
-],
-"correta": 1,
-"dica": "O foco da saúde coletiva é a promoção e proteção da saúde em nível populacional."
-},
-{
-"pergunta": "Qual o valor normal da Pressão Arterial (PA) em mmHg?",
-"opcoes": [
-"100x60 mmHg.",
-"120x80 mmHg.",
-"140x90 mmHg.",
-"160x100 mmHg."
-],
-"correta": 1,
-"dica": "Este valor é o padrão para um adulto em repouso."
-},
-{
-"pergunta": "Qual o volume máximo que pode ser administrado pela via intradérmica (ID)?",
-"opcoes": [
-"Até 5 ml.",
-"Até 1 ml.",
-"Até 0,1 ml.",
-"Até 10 ml."
-],
-"correta": 2,
-"dica": "Esta via é usada para volumes muito pequenos, pois a pele tem uma capacidade limitada de absorção."
-},
-{
-"pergunta": "O que o tubo de coleta de sangue com a tampa vermelha contém como aditivo?",
-"opcoes": [
-"EDTA.",
-"Citrato de sódio.",
-"Heparina.",
-"Nenhum aditivo."
-],
-"correta": 3,
-"dica": "A ausência de aditivo permite que o sangue coagule."
-},
-{
-"pergunta": "Qual vacina é administrada aos 4 anos?",
-"opcoes": [
-"Hepatite B e BCG.",
-"Tríplice Viral e Pneumo 10.",
-"DTP, VOP e Febre Amarela.",
-"Pentavalente e Rotavírus."
-],
-"correta": 2,
-"dica": "São reforços importantes para a saúde da criança."
-},
-{
-"pergunta": "Como a Hepatite C é transmitida?",
-"opcoes": [
-"Pela água e por alimentos contaminados.",
-"Pelo sangue contaminado.",
-"Pela tosse e pelo espirro.",
-"Apenas pelo contato sexual."
-],
-"correta": 1,
-"dica": "A principal via de transmissão é o contato com sangue infectado."
-},
-{
-"pergunta": "O que é o PSF?",
-"opcoes": [
-"Programa de Saúde Familiar.",
-"Programa Saúde da Família (ESF).",
-"Plano de Saúde Federal.",
-"Posto de Saúde Familiar."
-],
-"correta": 1,
-"dica": "A sigla é um acrônimo para o Programa de Saúde da Família."
-},
-{
-"pergunta": "Quais exames são realizados com o tubo de coleta verde?",
-"opcoes": [
-"Hemograma.",
-"Sorologia.",
-"Coagulação.",
-"Gasometria e bioquímica."
-],
-"correta": 3,
-"dica": "A heparina é um anticoagulante que não interfere em exames bioquímicos."
-},
-{
-"pergunta": "Qual é a idade recomendada para a aplicação da vacina HPV?",
-"opcoes": [
-"Ao nascer.",
-"2 meses.",
-"9 a 10 anos.",
-"15 meses."
-],
-"correta": 2,
-"dica": "Esta vacina é importante para prevenir infecções que podem levar a cânceres no futuro."
-},
-{
-"pergunta": "Qual a principal medida de prevenção para o Câncer de Mama, além do autoexame e da mamografia?",
-"opcoes": [
-"Dieta rica em açúcar.",
-"Vida sedentária.",
-"Alimentação saudável.",
-"Fumo e álcool."
-],
-"correta": 2,
-"dica": "Hábitos de vida saudáveis são cruciais para a prevenção."
-},
-{
-"pergunta": "Quantos Agentes Comunitários de Saúde compõem uma equipe, de acordo com a Portaria nº 648/2006?",
-"opcoes": [
-"1 a 2 agentes.",
-"4 a 6 agentes.",
-"Nenhum, não fazem parte da equipe.",
-"Apenas 1 agente."
-],
-"correta": 1,
-"dica": "Eles são a ponte entre a equipe de saúde e a comunidade."
-},
-{
-"pergunta": "Qual a principal diferença entre Saúde Coletiva e o cuidado individual?",
-"opcoes": [
-"A Saúde Coletiva trata apenas de doenças, o individual, de prevenção.",
-"A Saúde Coletiva foca na população, enquanto o cuidado individual foca em um único paciente.",
-"Não há diferença.",
-"A Saúde Coletiva é feita apenas em hospitais."
-],
-"correta": 1,
-"dica": "O foco da ação é a principal diferença."
-}
+  // --- HISTÓRIA DA PSIQUIATRIA E INTRODUÇÃO ---
+  {
+    "pergunta": "Como eram chamados os doentes mentais no Brasil por volta do ano 1800?",
+    "opcoes": [
+      "Pacientes psiquiátricos.",
+      "Alienados mentais.",
+      "Neuroatípicos.",
+      "Cidadãos especiais."
+    ],
+    "correta": 1,
+    "dica": "O termo usado na época sugeria que eles estavam 'alheios' à realidade."
+  },
+  {
+    "pergunta": "Quem eram os responsáveis por cuidar dos 'alienados mentais' em 1800?",
+    "opcoes": [
+      "Médicos especializados e enfermeiros.",
+      "O Estado e o exército.",
+      "A Igreja e os alienistas.",
+      "Apenas a família em casa."
+    ],
+    "correta": 2,
+    "dica": "O cuidado era precário e misturava religião com uma medicina inicial (alienistas)."
+  },
+  {
+    "pergunta": "O que marcou o ano de 1900 na história da saúde mental no Brasil?",
+    "opcoes": [
+      "O início da Revolução Psiquiátrica Brasileira.",
+      "A criação do SUS.",
+      "A descoberta da cura para a esquizofrenia.",
+      "O fim dos manicômios."
+    ],
+    "correta": 0,
+    "dica": "Foi o começo de um movimento de mudança que durou até 2001."
+  },
+  {
+    "pergunta": "Qual evento marca o fim da Revolução Psiquiátrica em 2001?",
+    "opcoes": [
+      "A descoberta de novos medicamentos.",
+      "A Lei nº 10.216 (Lei do Suporte).",
+      "A construção de novos hospitais psiquiátricos.",
+      "A extinção da profissão de psiquiatra."
+    ],
+    "correta": 1,
+    "dica": "Esta lei dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais."
+  },
+  {
+    "pergunta": "Qual caso famoso é citado nas anotações como referência para a mudança na lei e suporte em 2001?",
+    "opcoes": [
+      "Caso Ximenes.",
+      "Caso Freud.",
+      "Caso Pinel.",
+      "Caso Nise."
+    ],
+    "correta": 0,
+    "dica": "Refere-se a Damião Ximenes Lopes, um caso emblemático de violação de direitos."
+  },
+  {
+    "pergunta": "De acordo com as anotações, o que significa CAPSi?",
+    "opcoes": [
+      "Centro de Apoio Psicossocial Infantil.",
+      "Centro de Acolhimento Psicossocial.",
+      "Centro de Atenção e Prevenção de Sintomas.",
+      "Clínica de Apoio Psicológico Intensivo."
+    ],
+    "correta": 1,
+    "dica": "Nas anotações é descrito como 'Centro de acolhimento'."
+  },
+  {
+    "pergunta": "Qual é a relação entre físico e mental descrita nas anotações?",
+    "opcoes": [
+      "São independentes, um não afeta o outro.",
+      "Se você não estiver bem mentalmente, não ficará bem no físico.",
+      "O físico afeta o mental, mas o mental não afeta o físico.",
+      "A saúde mental é secundária à saúde física."
+    ],
+    "correta": 1,
+    "dica": "As anotações destacam que a mente afeta diretamente o corpo."
+  },
+  {
+    "pergunta": "O que é Psicopatologia?",
+    "opcoes": [
+      "Estudo da anatomia cerebral.",
+      "Uma doença psicológica.",
+      "Um tipo de terapia.",
+      "Um medicamento controlado."
+    ],
+    "correta": 1,
+    "dica": "O termo é usado nas notas para definir as doenças da mente."
+  },
+
+  // --- NEUROSE E TOC ---
+  {
+    "pergunta": "A Neurose é caracterizada por problemas em qual sistema?",
+    "opcoes": [
+      "Sistema Digestivo.",
+      "Sistema Nervoso (SN).",
+      "Sistema Respiratório.",
+      "Sistema Imunológico."
+    ],
+    "correta": 1,
+    "dica": "Envolve o SN mandando sinais errados para o corpo."
+  },
+  {
+    "pergunta": "Qual é a definição de 'Reação Neurótica Aguda'?",
+    "opcoes": [
+      "É uma neurose constante que dura a vida toda.",
+      "Não tem neurose constante, acontece só naquele momento e volta ao normal.",
+      "É o estágio final da neurose.",
+      "É quando o paciente precisa de internação imediata."
+    ],
+    "correta": 1,
+    "dica": "É um episódio isolado, geralmente desencadeado por um gatilho."
+  },
+  {
+    "pergunta": "O que caracteriza a 'Personalidade Neurótica'?",
+    "opcoes": [
+      "Ocorre apenas uma vez na vida.",
+      "Acontece com frequência, o paciente tem a neurose constante.",
+      "Não tem relação com o sistema nervoso.",
+      "É impossível de diagnosticar."
+    ],
+    "correta": 1,
+    "dica": "Diferente da reação aguda, aqui o quadro é frequente."
+  },
+  {
+    "pergunta": "De acordo com as anotações, a Neurose tem cura?",
+    "opcoes": [
+      "Sim, quando tratada tem cura.",
+      "Não, é uma condição permanente.",
+      "Apenas a reação aguda tem cura.",
+      "Não, evolui sempre para psicose."
+    ],
+    "correta": 0,
+    "dica": "As anotações afirmam explicitamente que 'Neurose tem cura'."
+  },
+  {
+    "pergunta": "O que significa a sigla TOC?",
+    "opcoes": [
+      "Transtorno de Organização Crônica.",
+      "Transtorno Obsessivo Compulsivo.",
+      "Tratamento de Ordem Cerebral.",
+      "Trauma Ocorrido na Criança."
+    ],
+    "correta": 1,
+    "dica": "É descrito como uma evolução da neurose."
+  },
+  {
+    "pergunta": "Como o TOC é descrito em relação à Neurose nas anotações?",
+    "opcoes": [
+      "É uma forma mais leve de neurose.",
+      "É a cura da neurose.",
+      "É uma evolução ou piora da neurose.",
+      "Não tem relação com a neurose."
+    ],
+    "correta": 2,
+    "dica": "As notas mencionam que é uma 'piora da neurose'."
+  },
+  {
+    "pergunta": "Sobre o tratamento e cura do TOC, o que dizem as anotações da primeira imagem?",
+    "opcoes": [
+      "Tem cura rápida.",
+      "Não tem tratamento.",
+      "Tem tratamento e não tem cura.",
+      "Cura-se sozinho com o tempo."
+    ],
+    "correta": 2,
+    "dica": "Diferente da neurose geral, o TOC é descrito nessa parte como tendo tratamento, mas não cura."
+  },
+  {
+    "pergunta": "Qual é uma característica central do TOC mencionada?",
+    "opcoes": [
+      "Alucinações visuais.",
+      "Perda de memória.",
+      "Compulsão e ter um 'alvo'.",
+      "Tristeza profunda."
+    ],
+    "correta": 2,
+    "dica": "Envolve rituais ou ações fora do controle."
+  },
+
+  // --- HISTERIA ---
+  {
+    "pergunta": "Historicamente (Idade Média), a que a Histeria estava associada?",
+    "opcoes": [
+      "Ao excesso de trabalho.",
+      "A crenças religiosas e influência demoníaca.",
+      "A vírus e bactérias.",
+      "A má alimentação."
+    ],
+    "correta": 1,
+    "dica": "Era vista sob uma ótica mística/religiosa antes da medicina moderna."
+  },
+  {
+    "pergunta": "Qual psicanalista começou a trabalhar na 'ala das histéricas' em 1900?",
+    "opcoes": [
+      "Carl Jung.",
+      "Sigmund Freud.",
+      "Jean Piaget.",
+      "Nise da Silveira."
+    ],
+    "correta": 1,
+    "dica": "Ele definiu o Transtorno do Espectro Histérico."
+  },
+  {
+    "pergunta": "Por que a Histeria é chamada de 'Doença Teatral' nas anotações?",
+    "opcoes": [
+      "Porque afeta apenas atores.",
+      "Porque os sintomas são falsos.",
+      "Porque envolve emoções exageradas e necessidade de 'plateia'.",
+      "Porque se cura com teatro."
+    ],
+    "correta": 2,
+    "dica": "O comportamento vai 'além do normal', é exagerado."
+  },
+  {
+    "pergunta": "A histeria pode evoluir para qual outro quadro se não tratada?",
+    "opcoes": [
+      "Esquizofrenia.",
+      "Depressão.",
+      "Autismo.",
+      "TDAH."
+    ],
+    "correta": 1,
+    "dica": "As anotações dizem: 'Histeria antes da depressão: ela pode desenvolver a depressão'."
+  },
+  {
+    "pergunta": "Segundo Freud, o que representa o ID?",
+    "opcoes": [
+      "A razão e a lógica.",
+      "A ética e a moral.",
+      "O desejo íntimo / 'criança interior'.",
+      "O contato com a realidade."
+    ],
+    "correta": 2,
+    "dica": "É a parte instintiva da psique."
+  },
+  {
+    "pergunta": "Segundo Freud, o que representa o Superego?",
+    "opcoes": [
+      "O desejo sexual.",
+      "A ética e a moral.",
+      "O racional.",
+      "A histeria."
+    ],
+    "correta": 1,
+    "dica": "É a parte que julga e impõe regras sociais."
+  },
+  {
+    "pergunta": "Segundo Freud, o que representa o EGO?",
+    "opcoes": [
+      "O Racional.",
+      "O Inconsciente profundo.",
+      "Os sonhos.",
+      "A religiosidade."
+    ],
+    "correta": 0,
+    "dica": "É a parte que equilibra os desejos e a realidade."
+  },
+  {
+    "pergunta": "Qual é o sexo mais afetado historicamente pela ideia de Histeria, embora afete ambos?",
+    "opcoes": [
+      "Masculino.",
+      "Feminino.",
+      "Ambos igualmente.",
+      "Crianças apenas."
+    ],
+    "correta": 1,
+    "dica": "Freud inicialmente focou seus estudos no sexo feminino ('útero')."
+  },
+
+  // --- TEA (TRANSTORNO DO ESPECTRO AUTISTA) ---
+  {
+    "pergunta": "O TEA é classificado como um distúrbio de que tipo?",
+    "opcoes": [
+      "Doença degenerativa.",
+      "Neurodesenvolvimento.",
+      "Doença contagiosa.",
+      "Trauma físico."
+    ],
+    "correta": 1,
+    "dica": "Afeta como o cérebro se desenvolve desde cedo."
+  },
+  {
+    "pergunta": "Qual a idade média para fechar o diagnóstico de TEA segundo as anotações?",
+    "opcoes": [
+      "Ao nascer.",
+      "6 meses.",
+      "2 a 3 anos.",
+      "10 anos."
+    ],
+    "correta": 2,
+    "dica": "Embora os sinais apareçam antes, o diagnóstico fecha nessa faixa."
+  },
+  {
+    "pergunta": "O que é Neuroplasticidade cerebral?",
+    "opcoes": [
+      "A morte dos neurônios.",
+      "A facilidade do cérebro em aprender, especialmente nos primeiros 5 anos.",
+      "A rigidez do cérebro adulto.",
+      "Uma cirurgia cerebral."
+    ],
+    "correta": 1,
+    "dica": "Permite que o bebê aprenda coisas com muita facilidade."
+  },
+  {
+    "pergunta": "Geralmente, qual sexo é mais diagnosticado com TEA?",
+    "opcoes": [
+      "Feminino.",
+      "Masculino.",
+      "Não há diferença.",
+      "Não se aplica."
+    ],
+    "correta": 1,
+    "dica": "As anotações citam: 'Geralmente são do sexo masculino'."
+  },
+  {
+    "pergunta": "Existe uma causa única para o Autismo?",
+    "opcoes": [
+      "Sim, é puramente genético.",
+      "Sim, é causado por vacinas.",
+      "Não, é multifatorial (vários fatores).",
+      "Sim, é causado por trauma no parto apenas."
+    ],
+    "correta": 2,
+    "dica": "Não há causa única, mas fatores que aumentam o risco."
+  },
+  {
+    "pergunta": "Qual destes é citado como um fator de risco para TEA?",
+    "opcoes": [
+      "Uso de substâncias na gravidez.",
+      "Comer muito açúcar.",
+      "Assistir muita TV.",
+      "Falta de exercícios."
+    ],
+    "correta": 0,
+    "dica": "Fatores pré-natais influenciam o risco."
+  },
+  {
+    "pergunta": "O que significa a sigla DSM mencionada nas anotações sobre TEA?",
+    "opcoes": [
+      "Departamento de Saúde Mental.",
+      "Órgão/Manual sobre transtorno mental.",
+      "Diretoria de Saúde Médica.",
+      "Diagnóstico Superior Mental."
+    ],
+    "correta": 1,
+    "dica": "É a referência para classificar os níveis (Leve, Moderado, Severo)."
+  },
+  {
+    "pergunta": "Quais são os três níveis de TEA citados?",
+    "opcoes": [
+      "Baixo, Médio, Alto.",
+      "Leve, Moderado, Severo.",
+      "Inicial, Intermediário, Terminal.",
+      "A, B e C."
+    ],
+    "correta": 1,
+    "dica": "Classificação baseada na necessidade de suporte."
+  },
+
+  // --- PSICOSE ---
+  {
+    "pergunta": "Qual a definição principal de Psicose?",
+    "opcoes": [
+      "Excesso de tristeza.",
+      "Perda de contato com a realidade.",
+      "Medo de lugares fechados.",
+      "Dificuldade de aprendizado."
+    ],
+    "correta": 1,
+    "dica": "O indivíduo não distingue o real do imaginário."
+  },
+  {
+    "pergunta": "O que é um Delírio?",
+    "opcoes": [
+      "Ver coisas que não existem.",
+      "Uma falsa certeza / confusão mental.",
+      "Ouvir vozes.",
+      "Ficar paralisado."
+    ],
+    "correta": 1,
+    "dica": "Diferente da alucinação (sentidos), o delírio é uma crença/ideia falsa."
+  },
+  {
+    "pergunta": "O que é Alucinação (representada pela letra A nas notas)?",
+    "opcoes": [
+      "Uma crença falsa.",
+      "Percepção sensorial de algo que não existe (ver/ouvir).",
+      "Falta de memória.",
+      "Agressividade."
+    ],
+    "correta": 1,
+    "dica": "Pode afetar os sentidos (visão, audição)."
+  },
+  {
+    "pergunta": "O que é Catatonia?",
+    "opcoes": [
+      "Agitação extrema.",
+      "Estado de imobilidade ou movimentos anormais, comum em usuários de drogas.",
+      "Fala compulsiva.",
+      "Alegria excessiva."
+    ],
+    "correta": 1,
+    "dica": "O corpo pode ficar rígido ou em posições estranhas."
+  },
+  {
+    "pergunta": "A Psicose é considerada uma doença ou um sintoma?",
+    "opcoes": [
+      "Uma doença independente.",
+      "Um sintoma que pode aparecer em vários transtornos.",
+      "Um tipo de personalidade.",
+      "Uma escolha do paciente."
+    ],
+    "correta": 1,
+    "dica": "Pode aparecer na bipolaridade, esquizofrenia ou uso de drogas."
+  },
+  {
+    "pergunta": "O que é a 'Perturbação Psicótica Breve'?",
+    "opcoes": [
+      "Uma psicose que dura a vida toda.",
+      "Um surto passageiro.",
+      "Uma psicose leve que ninguém percebe.",
+      "O mesmo que Esquizofrenia."
+    ],
+    "correta": 1,
+    "dica": "Geralmente surge em jovens e passa."
+  },
+  {
+    "pergunta": "Qual é o tripé do tratamento para Psicose citado?",
+    "opcoes": [
+      "Dieta, exercício e sono.",
+      "Psicoterapia, medicação e internação.",
+      "Oração, jejum e conversa.",
+      "Isolamento, castigo e trabalho."
+    ],
+    "correta": 1,
+    "dica": "Envolve abordagem médica e psicológica intensiva."
+  },
+  {
+    "pergunta": "O que é Psicose Puerperal?",
+    "opcoes": [
+      "Psicose causada por drogas.",
+      "Evolução de um quadro pós-parto.",
+      "Psicose em idosos.",
+      "Psicose infantil."
+    ],
+    "correta": 1,
+    "dica": "Acontece com mulheres logo após terem bebê."
+  },
+
+  // --- TRANSTORNO BIPOLAR ---
+  {
+    "pergunta": "O Transtorno Bipolar afeta principalmente o quê?",
+    "opcoes": [
+      "A personalidade.",
+      "O humor.",
+      "A inteligência.",
+      "A coordenação motora."
+    ],
+    "correta": 1,
+    "dica": "As notas dizem: 'Não afeta personalidade, sim o humor'."
+  },
+  {
+    "pergunta": "Quais são os dois polos do Transtorno Bipolar?",
+    "opcoes": [
+      "Amor e Ódio.",
+      "Depressivo e Maníaco.",
+      "Raiva e Medo.",
+      "Ansiedade e Pânico."
+    ],
+    "correta": 1,
+    "dica": "O paciente oscila entre tristeza profunda e euforia."
+  },
+  {
+    "pergunta": "O que caracteriza o episódio Maníaco?",
+    "opcoes": [
+      "Sono excessivo e lentidão.",
+      "Tristeza e choro.",
+      "Euforia, energia absurda, fala compulsiva.",
+      "Isolamento social."
+    ],
+    "correta": 2,
+    "dica": "É o oposto da depressão: picos de energia."
+  },
+  {
+    "pergunta": "O que caracteriza o Bipolar Tipo 1?",
+    "opcoes": [
+      "Episódios de mania leves.",
+      "Apenas depressão.",
+      "Episódios fortes e rápidos de mania, seguidos de depressão.",
+      "Não tem mania."
+    ],
+    "correta": 2,
+    "dica": "É o tipo onde a mania é mais evidente e intensa."
+  },
+  {
+    "pergunta": "O que caracteriza o Bipolar Tipo 2?",
+    "opcoes": [
+      "Mania muito agressiva.",
+      "Episódios maníacos mais amenos/leves.",
+      "Ausência de depressão.",
+      "Alucinações constantes."
+    ],
+    "correta": 1,
+    "dica": "A mania é mais leve, o que pode dificultar o diagnóstico (parece que a pessoa só melhorou)."
+  },
+  {
+    "pergunta": "O que é o Tipo Ciclotímico?",
+    "opcoes": [
+      "Mudança de humor a cada hora.",
+      "Períodos longos (anos) de depressão seguidos de mania.",
+      "Cura rápida da bipolaridade.",
+      "Bipolaridade causada por ciclismo."
+    ],
+    "correta": 1,
+    "dica": "É raro e envolve ciclos de longa duração."
+  },
+  {
+    "pergunta": "O Transtorno Bipolar tem gatilho específico (como uma tristeza)?",
+    "opcoes": [
+      "Sim, sempre começa com uma perda.",
+      "Não, não tem gatilho específico como a tristeza comum.",
+      "Sim, o estresse no trabalho é o único gatilho.",
+      "Depende da idade."
+    ],
+    "correta": 1,
+    "dica": "Diferente da tristeza reativa, a mudança de humor bipolar é química/interna."
+  },
+  {
+    "pergunta": "Quais são sintomas do polo Depressivo no Bipolar?",
+    "opcoes": [
+      "Gastos compulsivos e euforia.",
+      "Falta de energia, perda de motivação, ideação suicida.",
+      "Irritabilidade e fala rápida.",
+      "Sensação de grandiosidade."
+    ],
+    "correta": 1,
+    "dica": "Sintomas clássicos de 'baixa' energia."
+  },
+
+  // --- OUTRAS PATOLOGIAS E TERMOS (TEPT, ESQUIZOFRENIA, ETC) ---
+  {
+    "pergunta": "O que é TEPT?",
+    "opcoes": [
+      "Transtorno de Estresse Pós-Traumático.",
+      "Transtorno Emocional Para Trabalho.",
+      "Tratamento Especial Para Tensão.",
+      "Técnica de Enfermagem Para Trauma."
+    ],
+    "correta": 0,
+    "dica": "Exige a existência de um trauma psicológico anterior."
+  },
+  {
+    "pergunta": "É possível ter TEPT sem ter sofrido um trauma?",
+    "opcoes": [
+      "Sim, é genético.",
+      "Não, 'não dá pra ter TEPT sem um trauma'.",
+      "Sim, se tiver depressão.",
+      "Talvez, depende do médico."
+    ],
+    "correta": 1,
+    "dica": "O trauma é o gatilho obrigatório para esse transtorno."
+  },
+  {
+    "pergunta": "O que é o Transtorno Somatoforme?",
+    "opcoes": [
+      "Fingir doença para faltar ao trabalho.",
+      "Somatização no corpo de um problema físico ou emocional.",
+      "Dor de cabeça comum.",
+      "Medo de altura."
+    ],
+    "correta": 1,
+    "dica": "Quando a mente adoece e o corpo sente os sintomas físicos."
+  },
+  {
+    "pergunta": "Ansiedade comum é considerada doença nas anotações?",
+    "opcoes": [
+      "Sim, sempre é doença.",
+      "Não, Ansiedade não é doença, nem psicopatologia.",
+      "Sim, é a doença mais grave.",
+      "Depende do dia."
+    ],
+    "correta": 1,
+    "dica": "A ansiedade é uma reação natural; ela vira doença quando vira TAG."
+  },
+  {
+    "pergunta": "O que é TAG?",
+    "opcoes": [
+      "Transtorno de Ansiedade Generalizada.",
+      "Técnica de Avaliação Geral.",
+      "Tratamento de Apoio Geriátrico.",
+      "Taxa de Ansiedade Global."
+    ],
+    "correta": 0,
+    "dica": "É quando a ansiedade vira uma psicopatologia."
+  },
+  {
+    "pergunta": "O que é a Síndrome de Burnout descrita nas notas?",
+    "opcoes": [
+      "Cansaço por exercícios físicos.",
+      "Esgotamento emocional vindo do trabalho.",
+      "Preguiça crônica.",
+      "Falta de vitaminas."
+    ],
+    "correta": 1,
+    "dica": "Está especificamente ligada ao ambiente profissional."
+  },
+  {
+    "pergunta": "Sobre a Esquizofrenia, ela nasce com a pessoa ou desenvolve?",
+    "opcoes": [
+      "Nasce com ela.",
+      "Pega-se como uma gripe.",
+      "Não nasce, ela desenvolve (tem predisposição).",
+      "É causada apenas por acidentes."
+    ],
+    "correta": 2,
+    "dica": "Existem fatores de risco, mas a doença se manifesta ao longo da vida."
+  },
+  {
+    "pergunta": "Qual a faixa etária comum para o surgimento da Esquizofrenia em homens?",
+    "opcoes": [
+      "10-15 anos.",
+      "20-25 anos.",
+      "40-50 anos.",
+      "60-70 anos."
+    ],
+    "correta": 1,
+    "dica": "Geralmente no início da vida adulta."
+  },
+  {
+    "pergunta": "O que é Cognição?",
+    "opcoes": [
+      "Capacidade de sentir dor.",
+      "Conjunto de habilidades mentais do ser humano.",
+      "Capacidade de digerir alimentos.",
+      "Habilidade de correr."
+    ],
+    "correta": 1,
+    "dica": "Envolve pensamento, memória, aprendizado, etc."
+  },
+  {
+    "pergunta": "Qual a característica principal da Depressão citada nas notas?",
+    "opcoes": [
+      "Apenas uma tristeza passageira.",
+      "Doença psicológica, tristeza crônica, humor depressivo.",
+      "Falta de vontade de comer apenas.",
+      "Dor no corpo todo."
+    ],
+    "correta": 1,
+    "dica": "Diferente da tristeza comum, é um estado crônico e patológico."
+  },
+  {
+    "pergunta": "Para criar um tratamento para Bipolaridade, o que é necessário observar?",
+    "opcoes": [
+      "Apenas a medicação disponível.",
+      "Se o paciente está no polo depressivo ou maníaco (energia).",
+      "A idade do paciente apenas.",
+      "A vontade da família."
+    ],
+    "correta": 1,
+    "dica": "O tratamento deve ser específico para a 'energia' do momento (mania ou depressão)."
+  },
+  {
+    "pergunta": "O que significa 'Comportamento de Risco' no contexto da mania (Bipolar)?",
+    "opcoes": [
+      "Praticar esportes radicais com segurança.",
+      "Investir dinheiro com cautela.",
+      "Agir impulsivamente sem medir consequências (gastos, sexo, velocidade).",
+      "Ficar trancado em casa."
+    ],
+    "correta": 2,
+    "dica": "A euforia tira a noção de perigo."
+  },
+  {
+    "pergunta": "Na Esquizofrenia, quais fatores podem influenciar o desenvolvimento?",
+    "opcoes": [
+      "Apenas genética.",
+      "Genética, traumas, problemas na gravidez.",
+      "Apenas o ambiente de trabalho.",
+      "Não existem fatores conhecidos."
+    ],
+    "correta": 1,
+    "dica": "É multifatorial, incluindo predisposição e eventos externos."
+  },
+  {
+    "pergunta": "O que significa 'Delírio é uma falsa certeza'?",
+    "opcoes": [
+      "Que o paciente está mentindo.",
+      "Que o paciente acredita plenamente em algo que não é real.",
+      "Que o paciente tem dúvidas sobre a realidade.",
+      "Que o paciente está sonhando."
+    ],
+    "correta": 1,
+    "dica": "Para o paciente, aquilo é uma verdade absoluta, mesmo que ilógica."
+  }
 ]
+
 
     
 
