@@ -1,5 +1,5 @@
 const perguntas = [
-  // --- HISTÓRIA DA PSIQUIATRIA E INTRODUÇÃO ---
+  // --- HISTÓRIA DA PSIQUIATRIA ---
   {
     "pergunta": "Como eram chamados os doentes mentais no Brasil por volta do ano 1800?",
     "opcoes": [
@@ -20,7 +20,7 @@ const perguntas = [
       "Apenas a família em casa."
     ],
     "correta": 2,
-    "dica": "O cuidado era precário e misturava religião com uma medicina inicial (alienistas)."
+    "dica": "O cuidado era precário e misturava religião com uma medicina inicial."
   },
   {
     "pergunta": "O que marcou o ano de 1900 na história da saúde mental no Brasil?",
@@ -31,414 +31,319 @@ const perguntas = [
       "O fim dos manicômios."
     ],
     "correta": 0,
-    "dica": "Foi o começo de um movimento de mudança que durou até 2001."
+    "dica": "Foi o começo de um movimento de mudança importante."
   },
   {
-    "pergunta": "Qual evento marca o fim da Revolução Psiquiátrica em 2001?",
+    "pergunta": "Em que ano se considera o término da 'Revolução Psiquiátrica Brasileira'?",
     "opcoes": [
-      "A descoberta de novos medicamentos.",
-      "A Lei nº 10.216 (Lei do Suporte).",
-      "A construção de novos hospitais psiquiátricos.",
-      "A extinção da profissão de psiquiatra."
+      "1950.",
+      "1988.",
+      "2001.",
+      "2025."
     ],
-    "correta": 1,
-    "dica": "Esta lei dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais."
-  },
-  {
-    "pergunta": "Qual caso famoso é citado nas anotações como referência para a mudança na lei e suporte em 2001?",
-    "opcoes": [
-      "Caso Ximenes.",
-      "Caso Freud.",
-      "Caso Pinel.",
-      "Caso Nise."
-    ],
-    "correta": 0,
-    "dica": "Refere-se a Damião Ximenes Lopes, um caso emblemático de violação de direitos."
-  },
-  {
-    "pergunta": "De acordo com as anotações, o que significa CAPSi?",
-    "opcoes": [
-      "Centro de Apoio Psicossocial Infantil.",
-      "Centro de Acolhimento Psicossocial.",
-      "Centro de Atenção e Prevenção de Sintomas.",
-      "Clínica de Apoio Psicológico Intensivo."
-    ],
-    "correta": 1,
-    "dica": "Nas anotações é descrito como 'Centro de acolhimento'."
-  },
-  {
-    "pergunta": "Qual é a relação entre físico e mental descrita nas anotações?",
-    "opcoes": [
-      "São independentes, um não afeta o outro.",
-      "Se você não estiver bem mentalmente, não ficará bem no físico.",
-      "O físico afeta o mental, mas o mental não afeta o físico.",
-      "A saúde mental é secundária à saúde física."
-    ],
-    "correta": 1,
-    "dica": "As anotações destacam que a mente afeta diretamente o corpo."
-  },
-  {
-    "pergunta": "O que é Psicopatologia?",
-    "opcoes": [
-      "Estudo da anatomia cerebral.",
-      "Uma doença psicológica.",
-      "Um tipo de terapia.",
-      "Um medicamento controlado."
-    ],
-    "correta": 1,
-    "dica": "O termo é usado nas notas para definir as doenças da mente."
+    "correta": 2,
+    "dica": "Ocorreu logo na virada do milênio."
   },
 
   // --- NEUROSE E TOC ---
   {
-    "pergunta": "A Neurose é caracterizada por problemas em qual sistema?",
+    "pergunta": "Qual característica principal define a Neurose segundo o texto?",
     "opcoes": [
-      "Sistema Digestivo.",
-      "Sistema Nervoso (SN).",
-      "Sistema Respiratório.",
-      "Sistema Imunológico."
+      "É uma doença viral.",
+      "É uma psicopatologia relacionada ao Sistema Nervoso.",
+      "É uma perda total da realidade.",
+      "É um problema exclusivamente genético."
     ],
     "correta": 1,
-    "dica": "Envolve o SN mandando sinais errados para o corpo."
+    "dica": "Afeta a forma como o sistema nervoso reage."
   },
   {
-    "pergunta": "Qual é a definição de 'Reação Neurótica Aguda'?",
+    "pergunta": "Qual a diferença entre Reação Neurótica Aguda e Personalidade Neurótica?",
     "opcoes": [
-      "É uma neurose constante que dura a vida toda.",
-      "Não tem neurose constante, acontece só naquele momento e volta ao normal.",
-      "É o estágio final da neurose.",
-      "É quando o paciente precisa de internação imediata."
+      "A aguda é crônica e a personalidade é passageira.",
+      "A aguda acontece só naquele momento e volta ao normal; a personalidade é frequente.",
+      "Não há diferença, ambas são incuráveis.",
+      "A personalidade neurótica não é considerada doença."
     ],
     "correta": 1,
-    "dica": "É um episódio isolado, geralmente desencadeado por um gatilho."
+    "dica": "Uma é um episódio isolado, a outra é recorrente."
   },
   {
-    "pergunta": "O que caracteriza a 'Personalidade Neurótica'?",
+    "pergunta": "Sobre a cura da Neurose e do TOC, o que é correto afirmar?",
     "opcoes": [
-      "Ocorre apenas uma vez na vida.",
-      "Acontece com frequência, o paciente tem a neurose constante.",
-      "Não tem relação com o sistema nervoso.",
-      "É impossível de diagnosticar."
+      "Nenhum dos dois tem cura.",
+      "O TOC tem cura, mas a Neurose não.",
+      "A Neurose tem cura; o TOC tem tratamento, mas não tem cura.",
+      "Ambos são curáveis com cirurgia."
     ],
-    "correta": 1,
-    "dica": "Diferente da reação aguda, aqui o quadro é frequente."
+    "correta": 2,
+    "dica": "O TOC é uma condição crônica que exige manejo constante."
   },
   {
-    "pergunta": "De acordo com as anotações, a Neurose tem cura?",
+    "pergunta": "Como o texto define a relação entre TOC e Neurose?",
     "opcoes": [
-      "Sim, quando tratada tem cura.",
-      "Não, é uma condição permanente.",
-      "Apenas a reação aguda tem cura.",
-      "Não, evolui sempre para psicose."
+      "O TOC é a evolução da Neurose.",
+      "A Neurose é a evolução do TOC.",
+      "São doenças opostas.",
+      "O TOC é uma forma leve de Neurose."
     ],
     "correta": 0,
-    "dica": "As anotações afirmam explicitamente que 'Neurose tem cura'."
+    "dica": "O TOC surge a partir de um quadro neurótico que se intensifica."
   },
   {
-    "pergunta": "O que significa a sigla TOC?",
-    "opcoes": [
-      "Transtorno de Organização Crônica.",
-      "Transtorno Obsessivo Compulsivo.",
-      "Tratamento de Ordem Cerebral.",
-      "Trauma Ocorrido na Criança."
-    ],
-    "correta": 1,
-    "dica": "É descrito como uma evolução da neurose."
-  },
-  {
-    "pergunta": "Como o TOC é descrito em relação à Neurose nas anotações?",
-    "opcoes": [
-      "É uma forma mais leve de neurose.",
-      "É a cura da neurose.",
-      "É uma evolução ou piora da neurose.",
-      "Não tem relação com a neurose."
-    ],
-    "correta": 2,
-    "dica": "As notas mencionam que é uma 'piora da neurose'."
-  },
-  {
-    "pergunta": "Sobre o tratamento e cura do TOC, o que dizem as anotações da primeira imagem?",
-    "opcoes": [
-      "Tem cura rápida.",
-      "Não tem tratamento.",
-      "Tem tratamento e não tem cura.",
-      "Cura-se sozinho com o tempo."
-    ],
-    "correta": 2,
-    "dica": "Diferente da neurose geral, o TOC é descrito nessa parte como tendo tratamento, mas não cura."
-  },
-  {
-    "pergunta": "Qual é uma característica central do TOC mencionada?",
+    "pergunta": "Qual é a característica central do TOC (Transtorno Obsessivo Compulsivo)?",
     "opcoes": [
       "Alucinações visuais.",
       "Perda de memória.",
-      "Compulsão e ter um 'alvo'.",
-      "Tristeza profunda."
+      "É uma compulsão.",
+      "Alegria excessiva."
     ],
     "correta": 2,
-    "dica": "Envolve rituais ou ações fora do controle."
+    "dica": "Envolve a necessidade incontrolável de realizar rituais ou pensamentos repetitivos."
+  },
+
+  // --- TRAUMAS, ESTRESSE E ANSIEDADE ---
+  {
+    "pergunta": "Para diagnosticar TEPT (Transtorno de Estresse Pós-Traumático), qual é a condição essencial?",
+    "opcoes": [
+      "Ter nascido com predisposição genética.",
+      "Ter sofrido um trauma psicológico.",
+      "Ter mais de 40 anos.",
+      "Ter problemas de alimentação."
+    ],
+    "correta": 1,
+    "dica": "O próprio nome do transtorno indica que ele vem 'pós' um evento específico."
+  },
+  {
+    "pergunta": "O que caracteriza o Transtorno de Ajustamento?",
+    "opcoes": [
+      "Um trauma físico grave.",
+      "Um trauma social.",
+      "Uma disfunção hormonal.",
+      "O uso de substâncias químicas."
+    ],
+    "correta": 1,
+    "dica": "Está ligado à dificuldade de se adaptar a mudanças sociais ou ambientais."
+  },
+  {
+    "pergunta": "O que é o Transtorno Somatoforme?",
+    "opcoes": [
+      "Uma doença apenas física.",
+      "Uma invenção do paciente.",
+      "Somatização causada por problema físico ou emocional.",
+      "Um tipo de autismo."
+    ],
+    "correta": 2,
+    "dica": "Quando a mente converte dores emocionais em sintomas no corpo."
+  },
+  {
+    "pergunta": "Segundo o texto, a Ansiedade comum (não o transtorno) é considerada uma doença?",
+    "opcoes": [
+      "Sim, sempre deve ser medicada.",
+      "Não, não é doença e nem psicopatologia.",
+      "Sim, é a doença mais grave do século.",
+      "Apenas se durar mais de um mês."
+    ],
+    "correta": 1,
+    "dica": "É uma reação natural, diferente do TAG."
+  },
+  {
+    "pergunta": "O que significa a sigla T.A.G. e qual sua classificação?",
+    "opcoes": [
+      "Transtorno de Atenção Geral - Não é doença.",
+      "Transtorno de Ansiedade Generalizada - É uma psicopatologia.",
+      "Tendência à Ansiedade Grave - É passageiro.",
+      "Transtorno de Agitação Global - É genético."
+    ],
+    "correta": 1,
+    "dica": "Envolve preocupação excessiva e persistente que afeta o dia a dia."
+  },
+  {
+    "pergunta": "Uma crise de ansiedade pode afetar o quê?",
+    "opcoes": [
+      "Apenas o batimento cardíaco.",
+      "Apenas a respiração.",
+      "Os 5 sentidos.",
+      "Apenas o sono."
+    ],
+    "correta": 2,
+    "dica": "A percepção sensorial pode ficar alterada durante a crise."
+  },
+  {
+    "pergunta": "Qual é a definição de Síndrome de Burnout apresentada?",
+    "opcoes": [
+      "Cansaço físico por exercícios.",
+      "Esgotamento emocional que vem do trabalho.",
+      "Depressão pós-parto.",
+      "Estresse causado por luto familiar."
+    ],
+    "correta": 1,
+    "dica": "Está estritamente ligada ao ambiente profissional."
+  },
+
+  // --- COGNIÇÃO E DEPRESSÃO ---
+  {
+    "pergunta": "O que é Cognição?",
+    "opcoes": [
+      "A capacidade de sentir emoções.",
+      "O conjunto de habilidades mentais do ser humano.",
+      "A habilidade de praticar esportes.",
+      "O sistema de defesa do corpo."
+    ],
+    "correta": 1,
+    "dica": "Envolve aprendizado, memória e raciocínio."
+  },
+  {
+    "pergunta": "Como a Depressão é classificada no texto?",
+    "opcoes": [
+      "Apenas uma tristeza passageira.",
+      "Uma doença psicológica.",
+      "Uma falha de caráter.",
+      "Um problema exclusivamente hormonal."
+    ],
+    "correta": 1,
+    "dica": "Vai além de estar triste, é uma condição clínica."
+  },
+  {
+    "pergunta": "Qual a sequência descrita para o humor depressivo?",
+    "opcoes": [
+      "Estresse -> Burnout -> Depressão.",
+      "Humor Depressivo -> Tristeza -> Depressão crônica.",
+      "Ansiedade -> Pânico -> Depressão.",
+      "Tristeza -> Mania -> Depressão."
+    ],
+    "correta": 1,
+    "dica": "Começa com o humor alterado e evolui para a cronicidade."
   },
 
   // --- HISTERIA ---
   {
-    "pergunta": "Historicamente (Idade Média), a que a Histeria estava associada?",
+    "pergunta": "Como a Histeria era conhecida historicamente e qual sua relação moderna?",
     "opcoes": [
-      "Ao excesso de trabalho.",
-      "A crenças religiosas e influência demoníaca.",
-      "A vírus e bactérias.",
-      "A má alimentação."
+      "Doença dos nervos; hoje é esquizofrenia.",
+      "Doença teatral; hoje ligada ao Transtorno do Espectro Histérico.",
+      "Possessão; hoje é tratada com antibióticos.",
+      "Fingimento; hoje não existe mais."
     ],
     "correta": 1,
-    "dica": "Era vista sob uma ótica mística/religiosa antes da medicina moderna."
+    "dica": "O termo 'teatral' refere-se à expressão dramática das emoções."
   },
   {
-    "pergunta": "Qual psicanalista começou a trabalhar na 'ala das histéricas' em 1900?",
+    "pergunta": "Quem lançou a 'ala das Histerias' em 1930?",
     "opcoes": [
-      "Carl Jung.",
-      "Sigmund Freud.",
-      "Jean Piaget.",
-      "Nise da Silveira."
+      "Jung.",
+      "Freud.",
+      "Skinner.",
+      "Piaget."
     ],
     "correta": 1,
-    "dica": "Ele definiu o Transtorno do Espectro Histérico."
+    "dica": "O pai da psicanálise."
   },
   {
-    "pergunta": "Por que a Histeria é chamada de 'Doença Teatral' nas anotações?",
+    "pergunta": "Qual a visão de 2025 sobre a personalidade histérica?",
     "opcoes": [
-      "Porque afeta apenas atores.",
-      "Porque os sintomas são falsos.",
-      "Porque envolve emoções exageradas e necessidade de 'plateia'.",
-      "Porque se cura com teatro."
+      "É apenas um traço de personalidade engraçado.",
+      "É um problema sério de saúde mental.",
+      "Não requer tratamento.",
+      "É o mesmo que bipolaridade."
     ],
-    "correta": 2,
-    "dica": "O comportamento vai 'além do normal', é exagerado."
+    "correta": 1,
+    "dica": "Deixou de ser visto como 'frescura' para ser tratado com seriedade."
   },
   {
-    "pergunta": "A histeria pode evoluir para qual outro quadro se não tratada?",
+    "pergunta": "A Histeria tem relação com qual outra patologia citada?",
     "opcoes": [
-      "Esquizofrenia.",
+      "TOC.",
       "Depressão.",
       "Autismo.",
-      "TDAH."
+      "Burnout."
     ],
     "correta": 1,
-    "dica": "As anotações dizem: 'Histeria antes da depressão: ela pode desenvolver a depressão'."
-  },
-  {
-    "pergunta": "Segundo Freud, o que representa o ID?",
-    "opcoes": [
-      "A razão e a lógica.",
-      "A ética e a moral.",
-      "O desejo íntimo / 'criança interior'.",
-      "O contato com a realidade."
-    ],
-    "correta": 2,
-    "dica": "É a parte instintiva da psique."
-  },
-  {
-    "pergunta": "Segundo Freud, o que representa o Superego?",
-    "opcoes": [
-      "O desejo sexual.",
-      "A ética e a moral.",
-      "O racional.",
-      "A histeria."
-    ],
-    "correta": 1,
-    "dica": "É a parte que julga e impõe regras sociais."
-  },
-  {
-    "pergunta": "Segundo Freud, o que representa o EGO?",
-    "opcoes": [
-      "O Racional.",
-      "O Inconsciente profundo.",
-      "Os sonhos.",
-      "A religiosidade."
-    ],
-    "correta": 0,
-    "dica": "É a parte que equilibra os desejos e a realidade."
-  },
-  {
-    "pergunta": "Qual é o sexo mais afetado historicamente pela ideia de Histeria, embora afete ambos?",
-    "opcoes": [
-      "Masculino.",
-      "Feminino.",
-      "Ambos igualmente.",
-      "Crianças apenas."
-    ],
-    "correta": 1,
-    "dica": "Freud inicialmente focou seus estudos no sexo feminino ('útero')."
+    "dica": "Problemas emocionais histéricos podem estar ligados a quadros depressivos."
   },
 
-  // --- TEA (TRANSTORNO DO ESPECTRO AUTISTA) ---
+  // --- T.E.A. (AUTISMO) ---
   {
-    "pergunta": "O TEA é classificado como um distúrbio de que tipo?",
+    "pergunta": "O que é o T.E.A.?",
     "opcoes": [
-      "Doença degenerativa.",
-      "Neurodesenvolvimento.",
-      "Doença contagiosa.",
-      "Trauma físico."
+      "Transtorno de Estresse Agudo.",
+      "Transtorno do Espectro Autista - Distúrbio do Neurodesenvolvimento.",
+      "Transtorno Emocional de Adultos.",
+      "Transtorno do Espectro da Ansiedade."
     ],
     "correta": 1,
-    "dica": "Afeta como o cérebro se desenvolve desde cedo."
+    "dica": "Afeta o desenvolvimento neurológico desde cedo."
   },
   {
-    "pergunta": "Qual a idade média para fechar o diagnóstico de TEA segundo as anotações?",
+    "pergunta": "Quando aparecem os primeiros sinais do T.E.A. e quando fecha-se o diagnóstico?",
     "opcoes": [
-      "Ao nascer.",
-      "6 meses.",
-      "2 a 3 anos.",
-      "10 anos."
+      "Sinais na adolescência; diagnóstico aos 18 anos.",
+      "Sinais nos primeiros meses; diagnóstico entre 2 a 3 anos.",
+      "Sinais aos 5 anos; diagnóstico aos 10 anos.",
+      "Sinais ao nascer; diagnóstico imediato."
     ],
-    "correta": 2,
-    "dica": "Embora os sinais apareçam antes, o diagnóstico fecha nessa faixa."
+    "correta": 1,
+    "dica": "A identificação precoce é fundamental."
   },
   {
-    "pergunta": "O que é Neuroplasticidade cerebral?",
+    "pergunta": "O que é neuroplasticidade cerebral no contexto do T.E.A.?",
     "opcoes": [
-      "A morte dos neurônios.",
-      "A facilidade do cérebro em aprender, especialmente nos primeiros 5 anos.",
       "A rigidez do cérebro adulto.",
-      "Uma cirurgia cerebral."
+      "A facilidade para aprender, que é maior nos primeiros 5 anos de vida.",
+      "A capacidade de curar o autismo.",
+      "A perda de neurônios com a idade."
     ],
     "correta": 1,
-    "dica": "Permite que o bebê aprenda coisas com muita facilidade."
+    "dica": "É o motivo pelo qual a intervenção precoce é tão eficiente."
   },
   {
-    "pergunta": "Geralmente, qual sexo é mais diagnosticado com TEA?",
+    "pergunta": "Quais são os níveis do T.E.A. descritos?",
     "opcoes": [
-      "Feminino.",
-      "Masculino.",
-      "Não há diferença.",
-      "Não se aplica."
+      "Nível A, B e C.",
+      "Leve (1), Moderado (2) e Severo (3).",
+      "Agudo e Crônico.",
+      "Baixo e Alto funcionamento apenas."
     ],
     "correta": 1,
-    "dica": "As anotações citam: 'Geralmente são do sexo masculino'."
-  },
-  {
-    "pergunta": "Existe uma causa única para o Autismo?",
-    "opcoes": [
-      "Sim, é puramente genético.",
-      "Sim, é causado por vacinas.",
-      "Não, é multifatorial (vários fatores).",
-      "Sim, é causado por trauma no parto apenas."
-    ],
-    "correta": 2,
-    "dica": "Não há causa única, mas fatores que aumentam o risco."
-  },
-  {
-    "pergunta": "Qual destes é citado como um fator de risco para TEA?",
-    "opcoes": [
-      "Uso de substâncias na gravidez.",
-      "Comer muito açúcar.",
-      "Assistir muita TV.",
-      "Falta de exercícios."
-    ],
-    "correta": 0,
-    "dica": "Fatores pré-natais influenciam o risco."
-  },
-  {
-    "pergunta": "O que significa a sigla DSM mencionada nas anotações sobre TEA?",
-    "opcoes": [
-      "Departamento de Saúde Mental.",
-      "Órgão/Manual sobre transtorno mental.",
-      "Diretoria de Saúde Médica.",
-      "Diagnóstico Superior Mental."
-    ],
-    "correta": 1,
-    "dica": "É a referência para classificar os níveis (Leve, Moderado, Severo)."
-  },
-  {
-    "pergunta": "Quais são os três níveis de TEA citados?",
-    "opcoes": [
-      "Baixo, Médio, Alto.",
-      "Leve, Moderado, Severo.",
-      "Inicial, Intermediário, Terminal.",
-      "A, B e C."
-    ],
-    "correta": 1,
-    "dica": "Classificação baseada na necessidade de suporte."
+    "dica": "Classificados de 1 a 3 conforme a necessidade de suporte."
   },
 
   // --- PSICOSE ---
   {
-    "pergunta": "Qual a definição principal de Psicose?",
+    "pergunta": "Qual a principal definição de Psicose?",
     "opcoes": [
-      "Excesso de tristeza.",
+      "Excesso de realidade.",
       "Perda de contato com a realidade.",
-      "Medo de lugares fechados.",
-      "Dificuldade de aprendizado."
+      "Dupla personalidade.",
+      "Medo de lugares fechados."
     ],
     "correta": 1,
-    "dica": "O indivíduo não distingue o real do imaginário."
+    "dica": "O indivíduo cria uma realidade paralela."
   },
   {
-    "pergunta": "O que é um Delírio?",
+    "pergunta": "O que caracteriza o Delírio na psicose?",
     "opcoes": [
       "Ver coisas que não existem.",
-      "Uma falsa certeza / confusão mental.",
-      "Ouvir vozes.",
-      "Ficar paralisado."
+      "Uma falsa certeza e confusão mental.",
+      "Ficar paralisado.",
+      "Falar outra língua."
     ],
     "correta": 1,
-    "dica": "Diferente da alucinação (sentidos), o delírio é uma crença/ideia falsa."
+    "dica": "É uma crença inabalável em algo que não é real (ex: achar que está sendo perseguido)."
   },
   {
-    "pergunta": "O que é Alucinação (representada pela letra A nas notas)?",
+    "pergunta": "O que é o estado catatônico e a quem é frequentemente associado no texto?",
     "opcoes": [
-      "Uma crença falsa.",
-      "Percepção sensorial de algo que não existe (ver/ouvir).",
-      "Falta de memória.",
-      "Agressividade."
+      "Agitação extrema; associado a bipolares.",
+      "Imobilidade ou estupor; associado a usuários de drogas.",
+      "Sono profundo; associado a depressivos.",
+      "Fala rápida; associado a ansiosos."
     ],
     "correta": 1,
-    "dica": "Pode afetar os sentidos (visão, audição)."
+    "dica": "A pessoa pode ficar 'congelada', sem reação."
   },
   {
-    "pergunta": "O que é Catatonia?",
-    "opcoes": [
-      "Agitação extrema.",
-      "Estado de imobilidade ou movimentos anormais, comum em usuários de drogas.",
-      "Fala compulsiva.",
-      "Alegria excessiva."
-    ],
-    "correta": 1,
-    "dica": "O corpo pode ficar rígido ou em posições estranhas."
-  },
-  {
-    "pergunta": "A Psicose é considerada uma doença ou um sintoma?",
-    "opcoes": [
-      "Uma doença independente.",
-      "Um sintoma que pode aparecer em vários transtornos.",
-      "Um tipo de personalidade.",
-      "Uma escolha do paciente."
-    ],
-    "correta": 1,
-    "dica": "Pode aparecer na bipolaridade, esquizofrenia ou uso de drogas."
-  },
-  {
-    "pergunta": "O que é a 'Perturbação Psicótica Breve'?",
-    "opcoes": [
-      "Uma psicose que dura a vida toda.",
-      "Um surto passageiro.",
-      "Uma psicose leve que ninguém percebe.",
-      "O mesmo que Esquizofrenia."
-    ],
-    "correta": 1,
-    "dica": "Geralmente surge em jovens e passa."
-  },
-  {
-    "pergunta": "Qual é o tripé do tratamento para Psicose citado?",
-    "opcoes": [
-      "Dieta, exercício e sono.",
-      "Psicoterapia, medicação e internação.",
-      "Oração, jejum e conversa.",
-      "Isolamento, castigo e trabalho."
-    ],
-    "correta": 1,
-    "dica": "Envolve abordagem médica e psicológica intensiva."
-  },
-  {
-    "pergunta": "O que é Psicose Puerperal?",
+    "pergunta": "O que é a Psicose Puerperal?",
     "opcoes": [
       "Psicose causada por drogas.",
       "Evolução de um quadro pós-parto.",
@@ -446,253 +351,123 @@ const perguntas = [
       "Psicose infantil."
     ],
     "correta": 1,
-    "dica": "Acontece com mulheres logo após terem bebê."
+    "dica": "Ocorre em mulheres logo após terem bebê."
   },
 
-  // --- TRANSTORNO BIPOLAR ---
+  // --- BIPOLARIDADE ---
   {
-    "pergunta": "O Transtorno Bipolar afeta principalmente o quê?",
+    "pergunta": "A Bipolaridade afeta principalmente o quê?",
     "opcoes": [
-      "A personalidade.",
-      "O humor.",
-      "A inteligência.",
-      "A coordenação motora."
+      "A memória.",
+      "O humor (oscilando entre depressivo e maníaco).",
+      "A coordenação motora.",
+      "A fala."
     ],
     "correta": 1,
-    "dica": "As notas dizem: 'Não afeta personalidade, sim o humor'."
+    "dica": "São dois polos opostos de emoção."
   },
   {
-    "pergunta": "Quais são os dois polos do Transtorno Bipolar?",
+    "pergunta": "Como é descrito o estado maníaco na bipolaridade?",
     "opcoes": [
-      "Amor e Ódio.",
-      "Depressivo e Maníaco.",
-      "Raiva e Medo.",
-      "Ansiedade e Pânico."
+      "Tristeza profunda.",
+      "Energia absurda.",
+      "Medo intenso.",
+      "Sonolência."
     ],
     "correta": 1,
-    "dica": "O paciente oscila entre tristeza profunda e euforia."
+    "dica": "A pessoa sente-se invencível, eufórica e agitada."
   },
   {
-    "pergunta": "O que caracteriza o episódio Maníaco?",
+    "pergunta": "O que caracteriza o Tipo 1 de Bipolaridade?",
     "opcoes": [
-      "Sono excessivo e lentidão.",
-      "Tristeza e choro.",
-      "Euforia, energia absurda, fala compulsiva.",
-      "Isolamento social."
-    ],
-    "correta": 2,
-    "dica": "É o oposto da depressão: picos de energia."
-  },
-  {
-    "pergunta": "O que caracteriza o Bipolar Tipo 1?",
-    "opcoes": [
-      "Episódios de mania leves.",
       "Apenas depressão.",
-      "Episódios fortes e rápidos de mania, seguidos de depressão.",
-      "Não tem mania."
-    ],
-    "correta": 2,
-    "dica": "É o tipo onde a mania é mais evidente e intensa."
-  },
-  {
-    "pergunta": "O que caracteriza o Bipolar Tipo 2?",
-    "opcoes": [
-      "Mania muito agressiva.",
-      "Episódios maníacos mais amenos/leves.",
-      "Ausência de depressão.",
-      "Alucinações constantes."
+      "Semanas de depressão e episódios fortes e rápidos de mania (mais comum).",
+      "Manias leves e depressão curta.",
+      "Apenas manias."
     ],
     "correta": 1,
-    "dica": "A mania é mais leve, o que pode dificultar o diagnóstico (parece que a pessoa só melhorou)."
+    "dica": "É o tipo clássico e mais frequente."
   },
   {
-    "pergunta": "O que é o Tipo Ciclotímico?",
+    "pergunta": "Qual a dificuldade do Bipolar Tipo 2?",
     "opcoes": [
-      "Mudança de humor a cada hora.",
-      "Períodos longos (anos) de depressão seguidos de mania.",
-      "Cura rápida da bipolaridade.",
-      "Bipolaridade causada por ciclismo."
+      "Não tem tratamento.",
+      "O episódio de mania é mais leve, tornando o diagnóstico difícil.",
+      "A pessoa não tem depressão.",
+      "Só afeta crianças."
     ],
     "correta": 1,
-    "dica": "É raro e envolve ciclos de longa duração."
+    "dica": "A hipomania (mania leve) pode ser confundida com apenas um 'bom humor'."
   },
   {
-    "pergunta": "O Transtorno Bipolar tem gatilho específico (como uma tristeza)?",
+    "pergunta": "O que é o tipo Ciclotímico na bipolaridade?",
     "opcoes": [
-      "Sim, sempre começa com uma perda.",
-      "Não, não tem gatilho específico como a tristeza comum.",
-      "Sim, o estresse no trabalho é o único gatilho.",
-      "Depende da idade."
+      "Troca de humor a cada hora.",
+      "Período longo de depressão (anos) e mania por alguns dias.",
+      "Sem depressão, apenas mania crônica.",
+      "Depressão leve que dura semanas."
     ],
     "correta": 1,
-    "dica": "Diferente da tristeza reativa, a mudança de humor bipolar é química/interna."
-  },
-  {
-    "pergunta": "Quais são sintomas do polo Depressivo no Bipolar?",
-    "opcoes": [
-      "Gastos compulsivos e euforia.",
-      "Falta de energia, perda de motivação, ideação suicida.",
-      "Irritabilidade e fala rápida.",
-      "Sensação de grandiosidade."
-    ],
-    "correta": 1,
-    "dica": "Sintomas clássicos de 'baixa' energia."
+    "dica": "É marcado pela longa duração da fase baixa."
   },
 
-  // --- OUTRAS PATOLOGIAS E TERMOS (TEPT, ESQUIZOFRENIA, ETC) ---
+  // --- ESQUIZOFRENIA ---
   {
-    "pergunta": "O que é TEPT?",
+    "pergunta": "Sobre a origem da Esquizofrenia, o que o texto afirma?",
     "opcoes": [
-      "Transtorno de Estresse Pós-Traumático.",
-      "Transtorno Emocional Para Trabalho.",
-      "Tratamento Especial Para Tensão.",
-      "Técnica de Enfermagem Para Trauma."
-    ],
-    "correta": 0,
-    "dica": "Exige a existência de um trauma psicológico anterior."
-  },
-  {
-    "pergunta": "É possível ter TEPT sem ter sofrido um trauma?",
-    "opcoes": [
-      "Sim, é genético.",
-      "Não, 'não dá pra ter TEPT sem um trauma'.",
-      "Sim, se tiver depressão.",
-      "Talvez, depende do médico."
-    ],
-    "correta": 1,
-    "dica": "O trauma é o gatilho obrigatório para esse transtorno."
-  },
-  {
-    "pergunta": "O que é o Transtorno Somatoforme?",
-    "opcoes": [
-      "Fingir doença para faltar ao trabalho.",
-      "Somatização no corpo de um problema físico ou emocional.",
-      "Dor de cabeça comum.",
-      "Medo de altura."
-    ],
-    "correta": 1,
-    "dica": "Quando a mente adoece e o corpo sente os sintomas físicos."
-  },
-  {
-    "pergunta": "Ansiedade comum é considerada doença nas anotações?",
-    "opcoes": [
-      "Sim, sempre é doença.",
-      "Não, Ansiedade não é doença, nem psicopatologia.",
-      "Sim, é a doença mais grave.",
-      "Depende do dia."
-    ],
-    "correta": 1,
-    "dica": "A ansiedade é uma reação natural; ela vira doença quando vira TAG."
-  },
-  {
-    "pergunta": "O que é TAG?",
-    "opcoes": [
-      "Transtorno de Ansiedade Generalizada.",
-      "Técnica de Avaliação Geral.",
-      "Tratamento de Apoio Geriátrico.",
-      "Taxa de Ansiedade Global."
-    ],
-    "correta": 0,
-    "dica": "É quando a ansiedade vira uma psicopatologia."
-  },
-  {
-    "pergunta": "O que é a Síndrome de Burnout descrita nas notas?",
-    "opcoes": [
-      "Cansaço por exercícios físicos.",
-      "Esgotamento emocional vindo do trabalho.",
-      "Preguiça crônica.",
-      "Falta de vitaminas."
-    ],
-    "correta": 1,
-    "dica": "Está especificamente ligada ao ambiente profissional."
-  },
-  {
-    "pergunta": "Sobre a Esquizofrenia, ela nasce com a pessoa ou desenvolve?",
-    "opcoes": [
-      "Nasce com ela.",
-      "Pega-se como uma gripe.",
-      "Não nasce, ela desenvolve (tem predisposição).",
-      "É causada apenas por acidentes."
+      "A pessoa já nasce com a doença manifestada.",
+      "É causada apenas por vírus.",
+      "Não se nasce com ela, ela se desenvolve (tem fatores, não causa única).",
+      "É contagiosa."
     ],
     "correta": 2,
-    "dica": "Existem fatores de risco, mas a doença se manifesta ao longo da vida."
+    "dica": "É uma combinação de predisposição e ambiente."
   },
   {
-    "pergunta": "Qual a faixa etária comum para o surgimento da Esquizofrenia em homens?",
+    "pergunta": "Qual a faixa etária comum para o desenvolvimento da Esquizofrenia?",
     "opcoes": [
-      "10-15 anos.",
-      "20-25 anos.",
-      "40-50 anos.",
-      "60-70 anos."
+      "Crianças de 5 a 10 anos.",
+      "Homens 20-25 e mulheres 25-30 anos.",
+      "Idosos acima de 60 anos.",
+      "Adolescentes de 12 a 15 anos."
     ],
     "correta": 1,
-    "dica": "Geralmente no início da vida adulta."
+    "dica": "Surge no início da vida adulta."
   },
   {
-    "pergunta": "O que é Cognição?",
+    "pergunta": "Quais fatores contribuem para o desenvolvimento da Esquizofrenia?",
     "opcoes": [
-      "Capacidade de sentir dor.",
-      "Conjunto de habilidades mentais do ser humano.",
-      "Capacidade de digerir alimentos.",
-      "Habilidade de correr."
+      "Apenas alimentação.",
+      "Predisposição genética, traumas e problemas na gravidez/parto.",
+      "Falta de estudo.",
+      "Sedentarismo."
     ],
     "correta": 1,
-    "dica": "Envolve pensamento, memória, aprendizado, etc."
+    "dica": "Problemas ocorridos antes, durante ou depois da gestação influenciam."
   },
   {
-    "pergunta": "Qual a característica principal da Depressão citada nas notas?",
+    "pergunta": "A Esquizofrenia tem uma causa única definida?",
     "opcoes": [
-      "Apenas uma tristeza passageira.",
-      "Doença psicológica, tristeza crônica, humor depressivo.",
-      "Falta de vontade de comer apenas.",
-      "Dor no corpo todo."
-    ],
-    "correta": 1,
-    "dica": "Diferente da tristeza comum, é um estado crônico e patológico."
-  },
-  {
-    "pergunta": "Para criar um tratamento para Bipolaridade, o que é necessário observar?",
-    "opcoes": [
-      "Apenas a medicação disponível.",
-      "Se o paciente está no polo depressivo ou maníaco (energia).",
-      "A idade do paciente apenas.",
-      "A vontade da família."
-    ],
-    "correta": 1,
-    "dica": "O tratamento deve ser específico para a 'energia' do momento (mania ou depressão)."
-  },
-  {
-    "pergunta": "O que significa 'Comportamento de Risco' no contexto da mania (Bipolar)?",
-    "opcoes": [
-      "Praticar esportes radicais com segurança.",
-      "Investir dinheiro com cautela.",
-      "Agir impulsivamente sem medir consequências (gastos, sexo, velocidade).",
-      "Ficar trancado em casa."
+      "Sim, é genética.",
+      "Sim, é trauma.",
+      "Não, ela tem fatores múltiplos.",
+      "Sim, é uso de drogas."
     ],
     "correta": 2,
-    "dica": "A euforia tira a noção de perigo."
+    "dica": "Não existe um único 'culpado', é multifatorial."
   },
+
+  // --- PERGUNTAS FINAIS (MISTAS) ---
   {
-    "pergunta": "Na Esquizofrenia, quais fatores podem influenciar o desenvolvimento?",
+    "pergunta": "Segundo o texto, o órgão que cataloga transtornos mentais é o:",
     "opcoes": [
-      "Apenas genética.",
-      "Genética, traumas, problemas na gravidez.",
-      "Apenas o ambiente de trabalho.",
-      "Não existem fatores conhecidos."
+      "OMS.",
+      "DSM.",
+      "SUS.",
+      "MEC."
     ],
     "correta": 1,
-    "dica": "É multifatorial, incluindo predisposição e eventos externos."
-  },
-  {
-    "pergunta": "O que significa 'Delírio é uma falsa certeza'?",
-    "opcoes": [
-      "Que o paciente está mentindo.",
-      "Que o paciente acredita plenamente em algo que não é real.",
-      "Que o paciente tem dúvidas sobre a realidade.",
-      "Que o paciente está sonhando."
-    ],
-    "correta": 1,
-    "dica": "Para o paciente, aquilo é uma verdade absoluta, mesmo que ilógica."
+    "dica": "Manual Diagnóstico e Estatístico de Transtornos Mentais."
   }
 ]
 
