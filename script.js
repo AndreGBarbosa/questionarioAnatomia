@@ -1,475 +1,624 @@
 const perguntas = [
-  // --- HISTÓRIA DA PSIQUIATRIA ---
+  // --- PARTE 1: ENFERMAGEM E GASTROENTEROLOGIA ---
   {
-    "pergunta": "Como eram chamados os doentes mentais no Brasil por volta do ano 1800?",
+    "pergunta": "Para a enfermagem, qual o atributo mais precioso?",
     "opcoes": [
-      "Pacientes psiquiátricos.",
-      "Alienados mentais.",
-      "Neuroatípicos.",
-      "Cidadãos especiais."
+      "A cura imediata.",
+      "O Cuidado.",
+      "O diagnóstico médico.",
+      "A administração hospitalar."
     ],
     "correta": 1,
-    "dica": "O termo usado na época sugeria que eles estavam 'alheios' à realidade."
+    "dica": "Não se pauta somente nos sinais clínicos, mas na totalidade do ser humano."
   },
   {
-    "pergunta": "Quem eram os responsáveis por cuidar dos 'alienados mentais' em 1800?",
+    "pergunta": "É a parte integrante de uma organização médica e social... de caráter curativo quanto preventivo. Quem sou eu?",
     "opcoes": [
-      "Médicos especializados e enfermeiros.",
-      "O Estado e o exército.",
-      "A Igreja e os alienistas.",
-      "Apenas a família em casa."
+      "Posto de Saúde.",
+      "Hospital.",
+      "Clínica de Estética.",
+      "Farmácia."
+    ],
+    "correta": 1,
+    "dica": "Atende sob qualquer regime, inclusive o domiciliar."
+  },
+  {
+    "pergunta": "Qual a classificação dos Hospitais quanto à edificação?",
+    "opcoes": [
+      "Pequeno, Médio e Grande.",
+      "Vertical e Horizontal.",
+      "Pavilhonar, Multibloco, Misto.",
+      "Aberto e Fechado."
     ],
     "correta": 2,
-    "dica": "O cuidado era precário e misturava religião com uma medicina inicial."
+    "dica": "Refere-se ao estilo da construção dos prédios."
   },
   {
-    "pergunta": "O que marcou o ano de 1900 na história da saúde mental no Brasil?",
+    "pergunta": "Qual a classificação dos Hospitais quanto à disposição da construção em blocos?",
     "opcoes": [
-      "O início da Revolução Psiquiátrica Brasileira.",
-      "A criação do SUS.",
-      "A descoberta da cura para a esquizofrenia.",
-      "O fim dos manicômios."
+      "Vertical e Horizontal.",
+      "Pavilhonar e Misto.",
+      "Geral e Especializado.",
+      "Público e Privado."
     ],
     "correta": 0,
-    "dica": "Foi o começo de um movimento de mudança importante."
+    "dica": "Refere-se a como os blocos são distribuídos no terreno ou em altura."
   },
   {
-    "pergunta": "Em que ano se considera o término da 'Revolução Psiquiátrica Brasileira'?",
+    "pergunta": "Qual a classificação dos Hospitais quanto ao tamanho em relação ao número de leitos (Grande porte)?",
     "opcoes": [
-      "1950.",
-      "1988.",
-      "2001.",
-      "2025."
+      "Entre 25 e 49 leitos.",
+      "Entre 50 e 149 leitos.",
+      "Entre 150 e 500 leitos.",
+      "Mais de 500 leitos."
     ],
     "correta": 2,
-    "dica": "Ocorreu logo na virada do milênio."
-  },
-
-  // --- NEUROSE E TOC ---
-  {
-    "pergunta": "Qual característica principal define a Neurose segundo o texto?",
-    "opcoes": [
-      "É uma doença viral.",
-      "É uma psicopatologia relacionada ao Sistema Nervoso.",
-      "É uma perda total da realidade.",
-      "É um problema exclusivamente genético."
-    ],
-    "correta": 1,
-    "dica": "Afeta a forma como o sistema nervoso reage."
+    "dica": "Médio vai até 149, e o Extra é acima de 500."
   },
   {
-    "pergunta": "Qual a diferença entre Reação Neurótica Aguda e Personalidade Neurótica?",
+    "pergunta": "Qual a classificação dos Hospitais quanto à função?",
     "opcoes": [
-      "A aguda é crônica e a personalidade é passageira.",
-      "A aguda acontece só naquele momento e volta ao normal; a personalidade é frequente.",
-      "Não há diferença, ambas são incuráveis.",
-      "A personalidade neurótica não é considerada doença."
-    ],
-    "correta": 1,
-    "dica": "Uma é um episódio isolado, a outra é recorrente."
-  },
-  {
-    "pergunta": "Sobre a cura da Neurose e do TOC, o que é correto afirmar?",
-    "opcoes": [
-      "Nenhum dos dois tem cura.",
-      "O TOC tem cura, mas a Neurose não.",
-      "A Neurose tem cura; o TOC tem tratamento, mas não tem cura.",
-      "Ambos são curáveis com cirurgia."
-    ],
-    "correta": 2,
-    "dica": "O TOC é uma condição crônica que exige manejo constante."
-  },
-  {
-    "pergunta": "Como o texto define a relação entre TOC e Neurose?",
-    "opcoes": [
-      "O TOC é a evolução da Neurose.",
-      "A Neurose é a evolução do TOC.",
-      "São doenças opostas.",
-      "O TOC é uma forma leve de Neurose."
+      "Restaurativa, Preventiva, Ensino educação e pesquisa.",
+      "Lucrativa e Filantrópica.",
+      "Aguda e Crônica.",
+      "Pública e Privada."
     ],
     "correta": 0,
-    "dica": "O TOC surge a partir de um quadro neurótico que se intensifica."
+    "dica": "Envolve desde curar até ensinar novos profissionais."
   },
   {
-    "pergunta": "Qual é a característica central do TOC (Transtorno Obsessivo Compulsivo)?",
+    "pergunta": "Qual a classificação dos Hospitais quanto à propriedade, manutenção e controle?",
     "opcoes": [
-      "Alucinações visuais.",
-      "Perda de memória.",
-      "É uma compulsão.",
-      "Alegria excessiva."
+      "Oficiais de Governo e Não oficiais ou particulares.",
+      "Verticais e Horizontais.",
+      "Gerais e Especializados.",
+      "Abertos e Fechados."
+    ],
+    "correta": 0,
+    "dica": "Define quem é o dono ou quem mantém o hospital."
+  },
+  {
+    "pergunta": "Qual a classificação dos Hospitais quanto ao atendimento?",
+    "opcoes": [
+      "Hospital Geral e Hospital Especializado.",
+      "Hospital Vertical e Horizontal.",
+      "Hospital de Ensino e Pesquisa.",
+      "Hospital Público e Privado."
+    ],
+    "correta": 0,
+    "dica": "Define se atende todas as patologias ou apenas uma área específica."
+  },
+  {
+    "pergunta": "Qual a classificação dos Hospitais quanto ao corpo clínico?",
+    "opcoes": [
+      "Interno e Externo.",
+      "Fechada e Aberta.",
+      "Residente e Visitante.",
+      "Fixo e Rotativo."
+    ],
+    "correta": 1,
+    "dica": "Refere-se à permissão para médicos atuarem na instituição."
+  },
+  {
+    "pergunta": "A saúde deve ser entendida em sentido mais amplo... Do que se trata o texto (sobre direito social e qualidade de vida)?",
+    "opcoes": [
+      "Processo Saúde Doença.",
+      "Sistema Único de Saúde.",
+      "Constituição Federal.",
+      "Regimento Interno Hospitalar."
+    ],
+    "correta": 0,
+    "dica": "Não é um bem de troca, mas um bem comum."
+  },
+  {
+    "pergunta": "É a inflamação da mucosa gástrica, quem sou eu?",
+    "opcoes": [
+      "Úlcera.",
+      "Gastrite.",
+      "Esofagite.",
+      "Duodenite."
+    ],
+    "correta": 1,
+    "dica": "Afeta a parede interna do estômago."
+  },
+  {
+    "pergunta": "É um processo que varia por horas ou alguns dias. Está relacionada com imprudência dietética e uso excessivo de AINES. Quem sou eu?",
+    "opcoes": [
+      "Gastrite crônica.",
+      "Úlcera gástrica.",
+      "Gastrite aguda.",
+      "Refluxo."
     ],
     "correta": 2,
-    "dica": "Envolve a necessidade incontrolável de realizar rituais ou pensamentos repetitivos."
+    "dica": "É temporária e muitas vezes ligada à alimentação ou álcool."
   },
-
-  // --- TRAUMAS, ESTRESSE E ANSIEDADE ---
   {
-    "pergunta": "Para diagnosticar TEPT (Transtorno de Estresse Pós-Traumático), qual é a condição essencial?",
+    "pergunta": "É uma inflamação prolongada do estômago que pode estar relacionada com a bactéria Helicobacter pylori. Quem sou eu?",
     "opcoes": [
-      "Ter nascido com predisposição genética.",
-      "Ter sofrido um trauma psicológico.",
-      "Ter mais de 40 anos.",
-      "Ter problemas de alimentação."
+      "Gastrite aguda.",
+      "Gastrite crônica.",
+      "Câncer gástrico.",
+      "Hérnia de hiato."
     ],
     "correta": 1,
-    "dica": "O próprio nome do transtorno indica que ele vem 'pós' um evento específico."
+    "dica": "É persistente e envolve uma bactéria específica."
   },
   {
-    "pergunta": "O que caracteriza o Transtorno de Ajustamento?",
+    "pergunta": "É um defeito escavado da mucosa gastrointestinal... decorrente da ação de secreção ácido-péptica. Quem sou eu?",
     "opcoes": [
-      "Um trauma físico grave.",
-      "Um trauma social.",
-      "Uma disfunção hormonal.",
-      "O uso de substâncias químicas."
+      "Gastrite.",
+      "Úlceras.",
+      "Tumor.",
+      "Fissura."
     ],
     "correta": 1,
-    "dica": "Está ligado à dificuldade de se adaptar a mudanças sociais ou ambientais."
+    "dica": "Forma uma 'escavação' ou ferida na parede do órgão."
   },
   {
-    "pergunta": "O que é o Transtorno Somatoforme?",
+    "pergunta": "Paciente apresenta: hipersecreção de HCL, dor 2-3 horas depois da refeição, ingestão de alimentos alivia a dor. Quem sou eu?",
     "opcoes": [
-      "Uma doença apenas física.",
-      "Uma invenção do paciente.",
-      "Somatização causada por problema físico ou emocional.",
-      "Um tipo de autismo."
+      "Úlcera gástrica.",
+      "Úlcera duodenal.",
+      "Refluxo gastroesofágico.",
+      "Gastrite nervosa."
+    ],
+    "correta": 1,
+    "dica": "A dor melhora quando se come; vômito é incomum."
+  },
+  {
+    "pergunta": "Paciente apresenta: hiposecreção de HCL, dor 30' - 1 h depois da refeição, vômito pode aliviar a dor. Quem sou eu?",
+    "opcoes": [
+      "Úlcera duodenal.",
+      "Úlcera gástrica.",
+      "Pancreatite.",
+      "Colite."
+    ],
+    "correta": 1,
+    "dica": "Comer causa dor logo em seguida; vômito é comum."
+  },
+  {
+    "pergunta": "Doença diarreica de início abrupto... relacionada com as condições precárias de higiene. Quem sou eu?",
+    "opcoes": [
+      "Gastroenterocolite aguda.",
+      "Apendicite.",
+      "Diverticulite.",
+      "Úlcera péptica."
+    ],
+    "correta": 0,
+    "dica": "Inflamação aguda do estômago e intestino."
+  },
+  {
+    "pergunta": "O aumento da frequência ou diminuição da consistência das fezes (>3 evacuações aquosas em 24horas). Quem sou eu?",
+    "opcoes": [
+      "Constipação.",
+      "Diarreia.",
+      "Vômito.",
+      "Dispepsia."
+    ],
+    "correta": 1,
+    "dica": "Pode ser aguda, persistente ou crônica."
+  },
+  {
+    "pergunta": "É também conhecida como 'hepatite infecciosa'... via de contágio é a fecal-oral. Quem sou eu?",
+    "opcoes": [
+      "Hepatite A.",
+      "Hepatite B.",
+      "Hepatite C.",
+      "Hepatite D."
+    ],
+    "correta": 0,
+    "dica": "Causada por um vírus RNA da família Picornaviridae."
+  },
+  {
+    "pergunta": "É altamente infectivo e facilmente transmitido através da via sexual, transfusões e verticalmente (mãe-filho). Quem sou eu?",
+    "opcoes": [
+      "Hepatite A.",
+      "Hepatite B.",
+      "Hepatite E.",
+      "Gastrite Viral."
+    ],
+    "correta": 1,
+    "dica": "Associada a acidentes perfurocortantes e compartilhamento de lâminas."
+  },
+  {
+    "pergunta": "A transmissão ocorre principalmente por via parenteral (transfusão antes de 1993, drogas injetáveis). Quem sou eu?",
+    "opcoes": [
+      "Hepatite A.",
+      "Hepatite B.",
+      "Hepatite C.",
+      "Hepatite E."
     ],
     "correta": 2,
-    "dica": "Quando a mente converte dores emocionais em sintomas no corpo."
+    "dica": "A transmissão sexual é menos comum que na B, e intrauterina é incomum."
   },
   {
-    "pergunta": "Segundo o texto, a Ansiedade comum (não o transtorno) é considerada uma doença?",
+    "pergunta": "É um vírus defectivo (incompleto)... necessita da presença do vírus da hepatite B. Quem sou eu?",
     "opcoes": [
-      "Sim, sempre deve ser medicada.",
-      "Não, não é doença e nem psicopatologia.",
-      "Sim, é a doença mais grave do século.",
-      "Apenas se durar mais de um mês."
-    ],
-    "correta": 1,
-    "dica": "É uma reação natural, diferente do TAG."
-  },
-  {
-    "pergunta": "O que significa a sigla T.A.G. e qual sua classificação?",
-    "opcoes": [
-      "Transtorno de Atenção Geral - Não é doença.",
-      "Transtorno de Ansiedade Generalizada - É uma psicopatologia.",
-      "Tendência à Ansiedade Grave - É passageiro.",
-      "Transtorno de Agitação Global - É genético."
-    ],
-    "correta": 1,
-    "dica": "Envolve preocupação excessiva e persistente que afeta o dia a dia."
-  },
-  {
-    "pergunta": "Uma crise de ansiedade pode afetar o quê?",
-    "opcoes": [
-      "Apenas o batimento cardíaco.",
-      "Apenas a respiração.",
-      "Os 5 sentidos.",
-      "Apenas o sono."
+      "Hepatite A.",
+      "Hepatite C.",
+      "Hepatite D.",
+      "Hepatite E."
     ],
     "correta": 2,
-    "dica": "A percepção sensorial pode ficar alterada durante a crise."
+    "dica": "Só consegue se replicar se o paciente já tiver Hepatite B."
   },
   {
-    "pergunta": "Qual é a definição de Síndrome de Burnout apresentada?",
+    "pergunta": "Possibilidade de que esta infecção seja uma zoonose (suínos, roedores). Quem sou eu?",
     "opcoes": [
-      "Cansaço físico por exercícios.",
-      "Esgotamento emocional que vem do trabalho.",
-      "Depressão pós-parto.",
-      "Estresse causado por luto familiar."
+      "Hepatite B.",
+      "Hepatite C.",
+      "Hepatite D.",
+      "Hepatite E."
+    ],
+    "correta": 3,
+    "dica": "Relatos de isolamento do vírus em animais."
+  },
+  {
+    "pergunta": "É inflamação podendo ser aguda ou crônica... num órgão que produz insulina e enzimas digestivas. Quem sou eu?",
+    "opcoes": [
+      "Hepatite.",
+      "Pancreatite.",
+      "Colecisitite.",
+      "Apencidite."
     ],
     "correta": 1,
-    "dica": "Está estritamente ligada ao ambiente profissional."
+    "dica": "O órgão afetado é o pâncreas."
   },
-
-  // --- COGNIÇÃO E DEPRESSÃO ---
   {
-    "pergunta": "O que é Cognição?",
+    "pergunta": "É uma doença difusa, morte celular e produção de tecido fibroso não funcionante no fígado. Quem sou eu?",
     "opcoes": [
-      "A capacidade de sentir emoções.",
-      "O conjunto de habilidades mentais do ser humano.",
-      "A habilidade de praticar esportes.",
-      "O sistema de defesa do corpo."
+      "Esteatose.",
+      "Cirrose hepática.",
+      "Hepatite aguda.",
+      "Cisto hepático."
     ],
     "correta": 1,
-    "dica": "Envolve aprendizado, memória e raciocínio."
+    "dica": "Prejudica a estrutura e função do órgão de forma grave."
   },
   {
-    "pergunta": "Como a Depressão é classificada no texto?",
+    "pergunta": "Causada mais frequentemente por alcoolismo crônico e constitui o tipo mais comum da doença. Quem sou eu?",
     "opcoes": [
-      "Apenas uma tristeza passageira.",
-      "Uma doença psicológica.",
-      "Uma falha de caráter.",
-      "Um problema exclusivamente hormonal."
+      "Cirrose biliar.",
+      "Cirrose alcoólica.",
+      "Cirrose pós-necrótica.",
+      "Esteatose leve."
     ],
     "correta": 1,
-    "dica": "Vai além de estar triste, é uma condição clínica."
+    "dica": "O nome deriva diretamente da causa (álcool)."
   },
   {
-    "pergunta": "Qual a sequência descrita para o humor depressivo?",
+    "pergunta": "Quais os estágios de danos no fígado, na ordem correta?",
     "opcoes": [
-      "Estresse -> Burnout -> Depressão.",
-      "Humor Depressivo -> Tristeza -> Depressão crônica.",
-      "Ansiedade -> Pânico -> Depressão.",
-      "Tristeza -> Mania -> Depressão."
+      "Cirrose -> Fibrose -> Esteatose.",
+      "Esteatose -> Fibrose -> Cirrose -> Câncer hepático.",
+      "Câncer -> Cirrose -> Esteatose.",
+      "Fibrose -> Esteatose -> Cirrose."
     ],
     "correta": 1,
-    "dica": "Começa com o humor alterado e evolui para a cronicidade."
+    "dica": "Começa com gordura, vira cicatriz, endurece e pode virar câncer."
   },
-
-  // --- HISTERIA ---
   {
-    "pergunta": "Como a Histeria era conhecida historicamente e qual sua relação moderna?",
+    "pergunta": "É o ressecamento das fezes no intestino grosso associada a movimentos lentos. Quem sou eu?",
     "opcoes": [
-      "Doença dos nervos; hoje é esquizofrenia.",
-      "Doença teatral; hoje ligada ao Transtorno do Espectro Histérico.",
-      "Possessão; hoje é tratada com antibióticos.",
-      "Fingimento; hoje não existe mais."
+      "Diarreia.",
+      "Constipação.",
+      "Gastroenterite.",
+      "Disenteria."
     ],
     "correta": 1,
-    "dica": "O termo 'teatral' refere-se à expressão dramática das emoções."
+    "dica": "Também conhecida como prisão de ventre."
   },
   {
-    "pergunta": "Quem lançou a 'ala das Histerias' em 1930?",
+    "pergunta": "Causada por um protozoário... fezes com manchas de sangue, transportado por água ou comida contaminada. Quem sou eu?",
     "opcoes": [
-      "Jung.",
-      "Freud.",
-      "Skinner.",
-      "Piaget."
+      "Amebíase.",
+      "Giardíase.",
+      "Virose.",
+      "Intolerância à lactose."
+    ],
+    "correta": 0,
+    "dica": "Pode causar disenteria amebiana."
+  },
+  {
+    "pergunta": "Sintomas variam de dor estomacal à diarreia persistente... eructação (arroto) e fadiga. Quem sou eu?",
+    "opcoes": [
+      "Amebíase.",
+      "Giardíase.",
+      "Hepatite.",
+      "Gastrite."
     ],
     "correta": 1,
-    "dica": "O pai da psicanálise."
+    "dica": "Causada por um protozoário (Giardia lamblia)."
   },
   {
-    "pergunta": "Qual a visão de 2025 sobre a personalidade histérica?",
+    "pergunta": "Algumas pessoas não conseguem digerir o açúcar encontrado no leite. Quem sou eu?",
     "opcoes": [
-      "É apenas um traço de personalidade engraçado.",
-      "É um problema sério de saúde mental.",
-      "Não requer tratamento.",
-      "É o mesmo que bipolaridade."
+      "Alergia à proteína do leite.",
+      "Intolerância à lactose.",
+      "Gastrite.",
+      "Úlcera."
     ],
     "correta": 1,
-    "dica": "Deixou de ser visto como 'frescura' para ser tratado com seriedade."
+    "dica": "Falta a enzima lactase."
   },
   {
-    "pergunta": "A Histeria tem relação com qual outra patologia citada?",
+    "pergunta": "É uma doença em que células malignas são encontradas nos tecidos do estômago. Quem sou eu?",
     "opcoes": [
-      "TOC.",
-      "Depressão.",
-      "Autismo.",
-      "Burnout."
-    ],
-    "correta": 1,
-    "dica": "Problemas emocionais histéricos podem estar ligados a quadros depressivos."
-  },
-
-  // --- T.E.A. (AUTISMO) ---
-  {
-    "pergunta": "O que é o T.E.A.?",
-    "opcoes": [
-      "Transtorno de Estresse Agudo.",
-      "Transtorno do Espectro Autista - Distúrbio do Neurodesenvolvimento.",
-      "Transtorno Emocional de Adultos.",
-      "Transtorno do Espectro da Ansiedade."
-    ],
-    "correta": 1,
-    "dica": "Afeta o desenvolvimento neurológico desde cedo."
-  },
-  {
-    "pergunta": "Quando aparecem os primeiros sinais do T.E.A. e quando fecha-se o diagnóstico?",
-    "opcoes": [
-      "Sinais na adolescência; diagnóstico aos 18 anos.",
-      "Sinais nos primeiros meses; diagnóstico entre 2 a 3 anos.",
-      "Sinais aos 5 anos; diagnóstico aos 10 anos.",
-      "Sinais ao nascer; diagnóstico imediato."
-    ],
-    "correta": 1,
-    "dica": "A identificação precoce é fundamental."
-  },
-  {
-    "pergunta": "O que é neuroplasticidade cerebral no contexto do T.E.A.?",
-    "opcoes": [
-      "A rigidez do cérebro adulto.",
-      "A facilidade para aprender, que é maior nos primeiros 5 anos de vida.",
-      "A capacidade de curar o autismo.",
-      "A perda de neurônios com a idade."
-    ],
-    "correta": 1,
-    "dica": "É o motivo pelo qual a intervenção precoce é tão eficiente."
-  },
-  {
-    "pergunta": "Quais são os níveis do T.E.A. descritos?",
-    "opcoes": [
-      "Nível A, B e C.",
-      "Leve (1), Moderado (2) e Severo (3).",
-      "Agudo e Crônico.",
-      "Baixo e Alto funcionamento apenas."
-    ],
-    "correta": 1,
-    "dica": "Classificados de 1 a 3 conforme a necessidade de suporte."
-  },
-
-  // --- PSICOSE ---
-  {
-    "pergunta": "Qual a principal definição de Psicose?",
-    "opcoes": [
-      "Excesso de realidade.",
-      "Perda de contato com a realidade.",
-      "Dupla personalidade.",
-      "Medo de lugares fechados."
-    ],
-    "correta": 1,
-    "dica": "O indivíduo cria uma realidade paralela."
-  },
-  {
-    "pergunta": "O que caracteriza o Delírio na psicose?",
-    "opcoes": [
-      "Ver coisas que não existem.",
-      "Uma falsa certeza e confusão mental.",
-      "Ficar paralisado.",
-      "Falar outra língua."
-    ],
-    "correta": 1,
-    "dica": "É uma crença inabalável em algo que não é real (ex: achar que está sendo perseguido)."
-  },
-  {
-    "pergunta": "O que é o estado catatônico e a quem é frequentemente associado no texto?",
-    "opcoes": [
-      "Agitação extrema; associado a bipolares.",
-      "Imobilidade ou estupor; associado a usuários de drogas.",
-      "Sono profundo; associado a depressivos.",
-      "Fala rápida; associado a ansiosos."
-    ],
-    "correta": 1,
-    "dica": "A pessoa pode ficar 'congelada', sem reação."
-  },
-  {
-    "pergunta": "O que é a Psicose Puerperal?",
-    "opcoes": [
-      "Psicose causada por drogas.",
-      "Evolução de um quadro pós-parto.",
-      "Psicose em idosos.",
-      "Psicose infantil."
-    ],
-    "correta": 1,
-    "dica": "Ocorre em mulheres logo após terem bebê."
-  },
-
-  // --- BIPOLARIDADE ---
-  {
-    "pergunta": "A Bipolaridade afeta principalmente o quê?",
-    "opcoes": [
-      "A memória.",
-      "O humor (oscilando entre depressivo e maníaco).",
-      "A coordenação motora.",
-      "A fala."
-    ],
-    "correta": 1,
-    "dica": "São dois polos opostos de emoção."
-  },
-  {
-    "pergunta": "Como é descrito o estado maníaco na bipolaridade?",
-    "opcoes": [
-      "Tristeza profunda.",
-      "Energia absurda.",
-      "Medo intenso.",
-      "Sonolência."
-    ],
-    "correta": 1,
-    "dica": "A pessoa sente-se invencível, eufórica e agitada."
-  },
-  {
-    "pergunta": "O que caracteriza o Tipo 1 de Bipolaridade?",
-    "opcoes": [
-      "Apenas depressão.",
-      "Semanas de depressão e episódios fortes e rápidos de mania (mais comum).",
-      "Manias leves e depressão curta.",
-      "Apenas manias."
-    ],
-    "correta": 1,
-    "dica": "É o tipo clássico e mais frequente."
-  },
-  {
-    "pergunta": "Qual a dificuldade do Bipolar Tipo 2?",
-    "opcoes": [
-      "Não tem tratamento.",
-      "O episódio de mania é mais leve, tornando o diagnóstico difícil.",
-      "A pessoa não tem depressão.",
-      "Só afeta crianças."
-    ],
-    "correta": 1,
-    "dica": "A hipomania (mania leve) pode ser confundida com apenas um 'bom humor'."
-  },
-  {
-    "pergunta": "O que é o tipo Ciclotímico na bipolaridade?",
-    "opcoes": [
-      "Troca de humor a cada hora.",
-      "Período longo de depressão (anos) e mania por alguns dias.",
-      "Sem depressão, apenas mania crônica.",
-      "Depressão leve que dura semanas."
-    ],
-    "correta": 1,
-    "dica": "É marcado pela longa duração da fase baixa."
-  },
-
-  // --- ESQUIZOFRENIA ---
-  {
-    "pergunta": "Sobre a origem da Esquizofrenia, o que o texto afirma?",
-    "opcoes": [
-      "A pessoa já nasce com a doença manifestada.",
-      "É causada apenas por vírus.",
-      "Não se nasce com ela, ela se desenvolve (tem fatores, não causa única).",
-      "É contagiosa."
+      "Úlcera gástrica.",
+      "Gastrite atrófica.",
+      "Câncer gástrico.",
+      "Pólipo benigno."
     ],
     "correta": 2,
-    "dica": "É uma combinação de predisposição e ambiente."
+    "dica": "Inclui adenocarcinoma, linfoma e leiomiossarcoma."
   },
   {
-    "pergunta": "Qual a faixa etária comum para o desenvolvimento da Esquizofrenia?",
+    "pergunta": "Qual significado de SAE?",
     "opcoes": [
-      "Crianças de 5 a 10 anos.",
-      "Homens 20-25 e mulheres 25-30 anos.",
-      "Idosos acima de 60 anos.",
-      "Adolescentes de 12 a 15 anos."
+      "Serviço de Atendimento Especializado.",
+      "Sistematização da Assistência de Enfermagem.",
+      "Sistema de Apoio à Enfermagem.",
+      "Sociedade Anônima de Enfermagem."
     ],
     "correta": 1,
-    "dica": "Surge no início da vida adulta."
+    "dica": "É o método que organiza o trabalho do enfermeiro."
   },
   {
-    "pergunta": "Quais fatores contribuem para o desenvolvimento da Esquizofrenia?",
+    "pergunta": "Quais as fases da SAE?",
     "opcoes": [
-      "Apenas alimentação.",
-      "Predisposição genética, traumas e problemas na gravidez/parto.",
-      "Falta de estudo.",
-      "Sedentarismo."
+      "Consulta, Remédio, Alta.",
+      "Coleta de dados, Diagnóstico, Planejamento, Implementação, Avaliação.",
+      "Triagem, Médico, Enfermagem.",
+      "Admissão, Cirurgia, Pós-operatório."
     ],
     "correta": 1,
-    "dica": "Problemas ocorridos antes, durante ou depois da gestação influenciam."
-  },
-  {
-    "pergunta": "A Esquizofrenia tem uma causa única definida?",
-    "opcoes": [
-      "Sim, é genética.",
-      "Sim, é trauma.",
-      "Não, ela tem fatores múltiplos.",
-      "Sim, é uso de drogas."
-    ],
-    "correta": 2,
-    "dica": "Não existe um único 'culpado', é multifatorial."
+    "dica": "Começa coletando dados e termina avaliando os resultados."
   },
 
-  // --- PERGUNTAS FINAIS (MISTAS) ---
+  // --- PARTE 2: SISTEMA URINÁRIO E REUMATOLOGIA ---
   {
-    "pergunta": "Segundo o texto, o órgão que cataloga transtornos mentais é o:",
+    "pergunta": "Produz, armazena e elimina a urina; Mantém a homeostase. Quem sou eu?",
     "opcoes": [
-      "OMS.",
-      "DSM.",
-      "SUS.",
-      "MEC."
+      "Sistema Digestório.",
+      "Sistema Urinário.",
+      "Sistema Circulatório.",
+      "Sistema Respiratório."
     ],
     "correta": 1,
-    "dica": "Manual Diagnóstico e Estatístico de Transtornos Mentais."
+    "dica": "Responsável por filtrar o sangue e controlar o pH."
+  },
+  {
+    "pergunta": "É um órgão com o formato de feijão; filtram o sangue. Quem sou eu?",
+    "opcoes": [
+      "Fígado.",
+      "Pâncreas.",
+      "Rins.",
+      "Bexiga."
+    ],
+    "correta": 2,
+    "dica": "Temos dois e têm o tamanho de uma mão fechada."
+  },
+  {
+    "pergunta": "São dois tubos que transportam a urina dos rins para a bexiga. Quem sou eu?",
+    "opcoes": [
+      "Uretra.",
+      "Ureteres.",
+      "Veias Renais.",
+      "Trompas."
+    ],
+    "correta": 1,
+    "dica": "Fazem movimentos peristálticos para mover a urina."
+  },
+  {
+    "pergunta": "Sou um músculo elástico e tenho a função de armazenar temporariamente a urina. Quem sou eu?",
+    "opcoes": [
+      "Rim.",
+      "Uretra.",
+      "Bexiga.",
+      "Próstata."
+    ],
+    "correta": 2,
+    "dica": "Esvazia-se durante a micção."
+  },
+  {
+    "pergunta": "É o resultado de um processo inflamatório difuso dos glomérulos renais (base imunológica). Quem sou eu?",
+    "opcoes": [
+      "Cistite.",
+      "Glomerulonefrite Difusa Aguda (Nefrite).",
+      "Cálculo Renal.",
+      "Prostatite."
+    ],
+    "correta": 1,
+    "dica": "Ocorre devido a complexos antígeno-anticorpo."
+  },
+  {
+    "pergunta": "Infecção bacteriana grave dos rins (bactérias sobem da bexiga). Quem sou eu?",
+    "opcoes": [
+      "Cistite.",
+      "Uretrite.",
+      "Pielonefrite.",
+      "Nefrolitíase."
+    ],
+    "correta": 2,
+    "dica": "Sintomas incluem febre, calafrios e dor lombar."
+  },
+  {
+    "pergunta": "É a presença de cálculos ou cristais no sistema urinário. Quem sou eu?",
+    "opcoes": [
+      "Litíase Renal.",
+      "Insuficiência Renal.",
+      "Glomerulonefrite.",
+      "Cistite."
+    ],
+    "correta": 0,
+    "dica": "Popularmente conhecido como pedra nos rins."
+  },
+  {
+    "pergunta": "Quando os rins deixam de filtrar ureia e substâncias indesejáveis. Quem sou eu?",
+    "opcoes": [
+      "Infecção Urinária.",
+      "Insuficiência Renal Aguda.",
+      "Incontinência Urinária.",
+      "Hiperplasia Prostática."
+    ],
+    "correta": 1,
+    "dica": "Ocorre diminuição do ritmo de filtração glomerular."
+  },
+  {
+    "pergunta": "Tipo de IRA reversível se tratada a tempo (ex: choque, hemorragia). Quem sou eu?",
+    "opcoes": [
+      "IRA Pré-Renal ou Funcional.",
+      "IRA Renal.",
+      "IRA Pós-Renal.",
+      "IRA Crônica."
+    ],
+    "correta": 0,
+    "dica": "O problema está na circulação antes de chegar ao rim."
+  },
+  {
+    "pergunta": "Tipo de IRA intrínseca, causada por lesão no parênquima (isquemia, nefrites). Quem sou eu?",
+    "opcoes": [
+      "IRA Pré-Renal.",
+      "IRA Renal.",
+      "IRA Pós-Renal.",
+      "Litíase."
+    ],
+    "correta": 1,
+    "dica": "O dano é no próprio tecido renal."
+  },
+  {
+    "pergunta": "Ocorre quando há obstrução do sistema uroexcretor (ex: cálculo, tumor). Quem sou eu?",
+    "opcoes": [
+      "IRA Pré-Renal.",
+      "IRA Renal.",
+      "IRA Pós-Renal.",
+      "Glomerulonefrite."
+    ],
+    "correta": 2,
+    "dica": "Algo impede a saída da urina."
+  },
+  {
+    "pergunta": "É um tipo de tratamento que visa repor as funções dos rins, retirando substâncias tóxicas. Quem sou eu?",
+    "opcoes": [
+      "Cirurgia.",
+      "Diálise.",
+      "Fisioterapia.",
+      "Quimioterapia."
+    ],
+    "correta": 1,
+    "dica": "Estabelece uma nova situação de equilíbrio."
+  },
+  {
+    "pergunta": "Infusão de líquido na cavidade abdominal através de cateter (peritônio filtra). Quem sou eu?",
+    "opcoes": [
+      "Hemodiálise.",
+      "Diálise Peritoneal.",
+      "Cateterismo Vesical.",
+      "Litotripsia."
+    ],
+    "correta": 1,
+    "dica": "Usa a membrana do próprio corpo como filtro."
+  },
+  {
+    "pergunta": "Promove a retirada de toxinas através da passagem do sangue por um filtro (máquina). Quem sou eu?",
+    "opcoes": [
+      "Diálise Peritoneal.",
+      "Hemodiálise.",
+      "Transplante.",
+      "Drenagem."
+    ],
+    "correta": 1,
+    "dica": "Realizada em clínicas, geralmente 3 vezes por semana."
+  },
+  {
+    "pergunta": "É considerada o padrão ouro para acesso vascular em hemodiálise. Quem sou eu?",
+    "opcoes": [
+      "Cateter Venoso Central (CVC).",
+      "Fístula Arteriovenosa (FAV).",
+      "Acesso Periférico.",
+      "Cateter de Foley."
+    ],
+    "correta": 1,
+    "dica": "Tem maior durabilidade e menor risco de infecção."
+  },
+  {
+    "pergunta": "Ausência ou produção de urina inferior a 100 ml/dia. Quem sou eu?",
+    "opcoes": [
+      "Poliúria.",
+      "Anúria.",
+      "Disúria.",
+      "Oligúria."
+    ],
+    "correta": 1,
+    "dica": "Produção quase nula de urina."
+  },
+  {
+    "pergunta": "Presença de sangue na urina. Quem sou eu?",
+    "opcoes": [
+      "Piúria.",
+      "Glicosúria.",
+      "Hematúria.",
+      "Colúria."
+    ],
+    "correta": 2,
+    "dica": "O prefixo 'Hema' refere-se a sangue."
+  },
+  {
+    "pergunta": "Degeneração das cartilagens que existem nas articulações (evitam contato osso-osso). Quem sou eu?",
+    "opcoes": [
+      "Osteoporose.",
+      "Osteoartrose.",
+      "Fibromialgia.",
+      "Lúpus."
+    ],
+    "correta": 1,
+    "dica": "Desgaste da cartilagem."
+  },
+  {
+    "pergunta": "Doença caracterizada pela redução de massa óssea (perda de cálcio). Quem sou eu?",
+    "opcoes": [
+      "Osteoartrose.",
+      "Osteoporose.",
+      "Artrite.",
+      "Gota."
+    ],
+    "correta": 1,
+    "dica": "Comum em mulheres após a menopausa."
+  },
+  {
+    "pergunta": "Doença inflamatória autoimune... o sistema imunológico ataca o revestimento da articulação. Quem sou eu?",
+    "opcoes": [
+      "Osteoartrite.",
+      "Artrite Reumatoide.",
+      "Fibromialgia.",
+      "Gota."
+    ],
+    "correta": 1,
+    "dica": "Causa deformidades e é sistêmica."
+  },
+  {
+    "pergunta": "Doença caracterizada pela elevação de ácido úrico e depósito de cristais. Quem sou eu?",
+    "opcoes": [
+      "Artrite Reumatoide.",
+      "Gota.",
+      "Lúpus.",
+      "Osteoporose."
+    ],
+    "correta": 1,
+    "dica": "Causa dores agudas, frequentemente no dedo do pé."
+  },
+  {
+    "pergunta": "Doença inflamatória crônica, autoimune, presença de autoanticorpos, 'asa de borboleta'. Quem sou eu?",
+    "opcoes": [
+      "Fibromialgia.",
+      "Lúpus Eritematoso.",
+      "Osteoporose.",
+      "Gota."
+    ],
+    "correta": 1,
+    "dica": "Acomete mais mulheres jovens e pode afetar vários órgãos."
   }
-]
+];
 
 
     
